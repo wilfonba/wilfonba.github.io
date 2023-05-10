@@ -85,12 +85,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </a>
           <hr>
 
-          <p class="w3-large w3-center"><b><i></i>About Me</b></p>  
-          <p align="justify"> I am a first year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
-              My research is on modeling of multicomponent fluids using a seven model which generalizes Navier-Stokes. When I'm not
-              busy with school or research I enjoy spending time outdoors camping, hiking, and climbing or indoors playing board games.
-          </p>
-          <hr>
           <a href="https://mflowcode.github.io/">
             <img alt="MFC Logo" src="./docs/assets/images/mfc.png"
             style="width:100%">
@@ -109,86 +103,121 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Right Column -->
     <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-        <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Publications</u></h2>
-        <div class="w3-container">
-          <h4 class="w3-text-light-grey w3-center"><b>Coming Soon</b></h4>
+
+        <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Home')">Home</button>
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Publications')">Publications</button>
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Work Experience')">Work Experience</button>
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Education')">Educaiton</button>
+        </div>
+
+        <div id="Home" class="w3-container tab w3-animate-bottom">
+        <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+            <h2 class="w3-text-light-grey w3-padding-4 w3-center"><u><i></i>Home</u></h2>
+            <div class="w3-container">
+                <p class="w3-large w3-center w3-text-light-grey"><b><i></i>About Me</b></p>  
+                <p align="justify"> I am a first year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
+                My primary research is on the modeling of gas liquid interfaces under high amplitude accelerations, but I also make regular
+                contributions to MFC, an exascale ready multiphase flow code. When I'm not busy with school or research I enjoy spending time outdoors
+                camping, hiking, and climbing or indoors playing board games.
+                </p>
+            </div>
+            <hr>
+            <p class="w3-large w3-center w3-text-light-grey"><b><i></i>Some of my Work</b></p>  
+            <iframe width="840" height="473" src="https://www.youtube.com/embed/RaBrFTb66JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p align="center">
+                <iframe width="418" height="743" src="https://www.youtube.com/embed/s5YJHaKRevM" title="3D Coalescing Bubbles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>        
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-        <h2 class="w3-text-light-grey w3-padding-16 w3-center "><u><i></i>Relevant Work Experience</u></h2>
-        <div class="w3-container">
-          <h4 class="w3-text-light-grey"><b>Defence Science and Technology Intern - Lawrence Livermore National Lab</b></h4>
-          <h6></i>June 2022  - August 2022</h6>
-          <p> In this position I taught myself how to use ALE3D for the purposes of modeling a high explosive point to line generator
-              with the purpose of accelerating flyer plates for the measurement of dynamic material properties. 
-               <a href="Documents/EOSPresentation.pdf" target="_blank" rel="noreferrer noopener">Presentation</a>
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h4 class="w3-text-light-grey"><b>Summer Intern - Lawrence Livermore National Lab</b></h4>
-          <h6></i>June 2021  - August 2021</h6>
-          <p>In this position I performed all-atom and coarse-grain molecular dynamics calculations using LAMMPS to model polymerization
-            for volumetric additive manufacturing. <a></a>
-          </p>
-          <hr>
+      <div id="Publications" class="w3-container tab w3-animate-bottom" style="display:none">
+        <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Publications</u></h2>
+            <div class="w3-container">
+            <h4 class="w3-text-light-grey w3-center"><b>Coming Soon</b></h4>
+            </div>
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-dark-grey">
-        <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Education</u></h2>
-        <div class="w3-container">
-          <h4 class="w3-text-light-grey"><b>Ph.D. Computational Science and Engineering</b></h4>
-          <h6></i>Georgia Institute of Technology</h6>
-          <h6></i>August 2022  - Current</h6>
-          <button type="button" class="collapsible">Relevant Coursework</button>
-            <div class="content">
-              <p> Numerical Linear Algebra (current)</p>
-              <p> Modeling and Simulation (current)</p>
-              <p> Computational Science and Engineering Algorithms (2022) </p>
-              <p> Viscous Fluid Flows (2022) </p>
+      <div id="Work Experience" class="w3-container tab w3-animate-bottom" style="display:none">
+        <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center "><u><i></i>Relevant Work Experience</u></h2>
+            <div class="w3-container">
+            <h4 class="w3-text-light-grey"><b>Defence Science and Technology Intern - Lawrence Livermore National Lab</b></h4>
+            <h6></i>June 2022  - August 2022</h6>
+            <p> In this position I taught myself how to use ALE3D for the purposes of modeling a high explosive point to line generator
+                with the purpose of accelerating flyer plates for the measurement of dynamic material properties. 
+                <a href="Documents/EOSPresentation.pdf" target="_blank" rel="noreferrer noopener">Presentation</a>
+            </p>
+            <hr>
             </div>
-          <button type="button" class="collapsible">Projects/Papers</button>
-            <div class="content">
-              <p> (2022) Implementation and Analysis of Exact and Approximate Minimum Vertex Cover Algorithms <a href="Documents/CSE6140_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+            <div class="w3-container">
+            <h4 class="w3-text-light-grey"><b>Summer Intern - Lawrence Livermore National Lab</b></h4>
+            <h6></i>June 2021  - August 2021</h6>
+            <p>In this position I performed all-atom and coarse-grain molecular dynamics calculations using LAMMPS to model polymerization
+                for volumetric additive manufacturing. <a></a>
+            </p>
+            <hr>
             </div>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h4 class="w3-text-light-grey"><b>B.S. In Mechanical Engineering and Computational Science</b></h4>
-          <h6></i>Rose-Hulman Institute of Technology</h6>
-          <h6></i>August 2018  - May 2022</h6>
-          <button type="button" class="collapsible">Relevant Coursework</button>
-            <div class="content">
-              <p>- Linear Algebra (Spring 2022)</p>
-              <p>- Introduction to Computational Modeling (Spring 2022)</p>
-              <p>- Introduction to Computational Fluid Dynamics (Winter 2021)</p>
-              <p>- Finite Element Methods for Engineering Applications (Winter 2021)</p>
-              <p>- Introduction to Parallel Computing (Spring 2021)</p>
-              <p>- Foundations of Fluid Mechanics (Fall 2020)</p>
-              <p>- Boundary Value Problems (Spring 2020)</p>
-              <p>- Finite Difference Methods (Winter 2019)</p>
-              <p>- Numerical Analysis (Winter 2019)</p>
-              <p>- Introduction to Computational Science (Fall 2019) </p>
-            </div>
-          <button type="button" class="collapsible">Projects/Papers</button>
-            <div class="content">
-              <p> - (2022) Modeling Flocking Behaviour With the Boids Algorithm <a href="Documents/MA342___Individual_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2022) Modeling Airflow and Lift to Design a Wing for Human Powered Flight <a href="Documents/ma342_airfoil_project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2022) Modelnig Waves and Thermal Dissipation with Partial Differential Equations <a href="Documents/ma342_pde_project.pdf" target="_blank" rel="noreferrer noopener">PDF </a></p>
-              <p> - (2022) Modeling Stonk Prices Using Stochastic Differential Equations <a href="Documents/ma342_stonks_project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2022) Modeling Using Delayed Differential Equations <a href="Documents/MA342___DDE_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2022) Modeling Magnetic Phase Transitions <a href="Documents/MA342_Magnetism_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2021) Finite Element Analysis of a Cart Frame <a href="Documents/ME422ProjectReport.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2021) A Second Order Solution to the Lid Driven Cavity Problem <a href="Documents/CFDPresentation.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-              <p> - (2020) The Rectilinear Steiner Tree Problem <a href="Documents/COMAPReport_Wilfong.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
-            </div>
-          <hr>
         </div>
       </div>
+
+      <div id="Education" class="w3-container tab w3-animate-bottom" style="display:none">
+        <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Education</u></h2>
+            <div class="w3-container">
+            <h4 class="w3-text-light-grey"><b>Ph.D. Computational Science and Engineering</b></h4>
+            <h6></i>Georgia Institute of Technology</h6>
+            <h6></i>August 2022  - Current</h6>
+            <button type="button" class="collapsible">Relevant Coursework</button>
+                <div class="content">
+                <p> Numerical Linear Algebra (2023)</p>
+                <p> Modeling and Simulation (2023)</p>
+                <p> Computational Science and Engineering Algorithms (2022) </p>
+                <p> Viscous Fluid Flows (2022) </p>
+                </div>
+            <button type="button" class="collapsible">Projects/Papers</button>
+                <div class="content">
+                <p> (2022) Implementation and Analysis of Exact and Approximate Minimum Vertex Cover Algorithms <a href="Documents/CSE6140_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                </div>
+            <hr>
+            </div>
+            <div class="w3-container">
+            <h4 class="w3-text-light-grey"><b>B.S. In Mechanical Engineering and Computational Science</b></h4>
+            <h6></i>Rose-Hulman Institute of Technology</h6>
+            <h6></i>August 2018  - May 2022</h6>
+            <button type="button" class="collapsible">Relevant Coursework</button>
+                <div class="content">
+                <p>- Linear Algebra (Spring 2022)</p>
+                <p>- Introduction to Computational Modeling (Spring 2022)</p>
+                <p>- Introduction to Computational Fluid Dynamics (Winter 2021)</p>
+                <p>- Finite Element Methods for Engineering Applications (Winter 2021)</p>
+                <p>- Introduction to Parallel Computing (Spring 2021)</p>
+                <p>- Foundations of Fluid Mechanics (Fall 2020)</p>
+                <p>- Boundary Value Problems (Spring 2020)</p>
+                <p>- Finite Difference Methods (Winter 2019)</p>
+                <p>- Numerical Analysis (Winter 2019)</p>
+                <p>- Introduction to Computational Science (Fall 2019) </p>
+                </div>
+            <button type="button" class="collapsible">Projects/Papers</button>
+                <div class="content">
+                <p> - (2022) Modeling Flocking Behaviour With the Boids Algorithm <a href="Documents/MA342___Individual_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2022) Modeling Airflow and Lift to Design a Wing for Human Powered Flight <a href="Documents/ma342_airfoil_project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2022) Modelnig Waves and Thermal Dissipation with Partial Differential Equations <a href="Documents/ma342_pde_project.pdf" target="_blank" rel="noreferrer noopener">PDF </a></p>
+                <p> - (2022) Modeling Stonk Prices Using Stochastic Differential Equations <a href="Documents/ma342_stonks_project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2022) Modeling Using Delayed Differential Equations <a href="Documents/MA342___DDE_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2022) Modeling Magnetic Phase Transitions <a href="Documents/MA342_Magnetism_Project.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2021) Finite Element Analysis of a Cart Frame <a href="Documents/ME422ProjectReport.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2021) A Second Order Solution to the Lid Driven Cavity Problem <a href="Documents/CFDPresentation.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                <p> - (2020) The Rectilinear Steiner Tree Problem <a href="Documents/COMAPReport_Wilfong.pdf" target="_blank" rel="noreferrer noopener">PDF</a></p>
+                </div>
+            <hr>
+            </div>
+        </div>
+        </div>
+
+
 
     <!-- End Right Column -->
     </div>
@@ -224,6 +253,17 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     }
   });
+}
+</script>
+
+<script>
+function openTab(tabName) {
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
 }
 </script>
 </body></html>
