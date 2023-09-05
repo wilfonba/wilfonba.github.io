@@ -104,7 +104,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Right Column -->
     <div class="w3-twothird">
 
-        <div class="w3-bar w3-black">
+        <div class="w3-bar w3-black" style="margin:10px">
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Home')">Home</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Publications')">Publications</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Work Experience')">Work Experience</button>
@@ -113,27 +113,37 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <div id="Home" class="w3-container tab w3-animate-bottom">
         <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-            <h2 class="w3-text-light-grey w3-padding-4 w3-center"><u><i></i>Home</u></h2>
             <div class="w3-container">
-                <p class="w3-large w3-center w3-text-light-grey"><b><i></i>About Me</b></p>  
-                <p align="justify"> I am a first year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
+                <h2 class="w3-center w3-text-light-grey"><b><i></i>About Me</b></h2>  
+                <p class="w3-justify"> I am a first year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
                 My primary research is on the modeling of gas liquid interfaces under high amplitude accelerations, but I also make regular
                 contributions to MFC, an exascale ready multiphase flow code. When I'm not busy with school or research I enjoy spending time outdoors
                 camping, hiking, and climbing or indoors playing board games.
                 </p>
             </div>
             <hr>
-            <p class="w3-large w3-center w3-text-light-grey"><b><i></i>Some of my Work</b></p>  
-            <iframe width="840" height="473" src="https://www.youtube.com/embed/RaBrFTb66JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p align="center">
-                <iframe width="418" height="743" src="https://www.youtube.com/embed/s5YJHaKRevM" title="3D Coalescing Bubbles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </p>        
+            <h2 class="w3-center w3-text-light-grey"><b><i></i>Some of my Work</b></h2> 
+            <div class=""w3-container"> 
+                <iframe width="840" height="473" src="https://www.youtube.com/embed/RaBrFTb66JE" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>  
+                <h4 class="w3-center">Vorticy Shedding of a Shock Inpinged Droplet</h4>  
+                <p class="w3-justify"> Atomization of a 3D water droplet in air impinged by a Mach 1.46
+                    shockwave. A 2000 x 1000 x 1000 cartesian grid is used to discretize the computationl
+                    domain. The flow was simulated for 200k time-steps with snapshots saved every 1k
+                    time-steps. The simulation required four hours of wall time using 960 GPUs on OLCF
+                    Summit. The video shows the development of the isosurface at which the vorticity is
+                    100k. 
+                </p> 
+            </div>
         </div>
       </div>
 
       <div id="Publications" class="w3-container tab w3-animate-bottom" style="display:none">
         <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Preprints</u></h2>
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><i></i>Preprints</h2>
                 <div class="jumbotron">
                     <ol class="bibliography" reversed="reversed"><li><style>
                   pre{
@@ -148,21 +158,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                   </style>
                   
                     <div class="text-justify">
-                    <span id="radhakrishnan23"><b>Radkhakrishnan, A.</b>, <b>Le Berre, H.</b>, <b>Wilfong, B.</b>, Spratt, J.-S., Rodriguez Jr., M., Colonius, T., &amp; Bryngelson, S. H. (2023). <i>Method for portable, scalable, and performant GPU-accelerated simulation of multiphase compressible flow</i>. arXiv: 2305.09163.</span></div>
+                    <span id="radhakrishnan23"><b>Radkhakrishnan, A.</b>, <b>Le Berre, H.</b>, <b>Wilfong, B.</b>, Spratt, J.-S., Rodriguez Jr., M., Colonius, T., &amp; Bryngelson, S. H. (2023). <i>Method for portable, scalable, and performant GPU-accelerated simulation of multiphase compressible flow</i>. arXiv: 2305.09163. (preprint)</span></div>
                     <a href="Documents/radhakrishnan-arxiv-23.pdf" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
                     <a href="https://arxiv.org/abs/2305.09163" target="_blank"><button class="btn btn-success btm-sm">ARXIV</button></a>
                   </ol>
                 </div>
             </h2>
 
-            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Archival papers and reports</u></h2>
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><i></i>Archival papers and reports</h2>
             <p class="w3-text-light-grey w3-center"><i></i>Coming Soon</p>
         </div>
       </div>
 
       <div id="Work Experience" class="w3-container tab w3-animate-bottom" style="display:none">
         <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-            <h2 class="w3-text-light-grey w3-padding-16 w3-center "><u><i></i>Relevant Work Experience</u></h2>
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center "><i></i>Relevant Work Experience</h2>
             <div class="w3-container">
             <h4 class="w3-text-light-grey"><b>Defence Science and Technology Intern - Lawrence Livermore National Lab</b></h4>
             <h6></i>June 2022  - August 2022</h6>
@@ -185,17 +195,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
       <div id="Education" class="w3-container tab w3-animate-bottom" style="display:none">
         <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
-            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><u><i></i>Education</u></h2>
+            <h2 class="w3-text-light-grey w3-padding-16 w3-center"><i></i>Education</h2>
             <div class="w3-container">
             <h4 class="w3-text-light-grey"><b>Ph.D. Computational Science and Engineering</b></h4>
             <h6></i>Georgia Institute of Technology</h6>
             <h6></i>August 2022  - Current</h6>
             <button type="button" class="collapsible">Relevant Coursework</button>
-                <div class="content">
-                <p> Numerical Linear Algebra (2023)</p>
-                <p> Modeling and Simulation (2023)</p>
-                <p> Computational Science and Engineering Algorithms (2022) </p>
-                <p> Viscous Fluid Flows (2022) </p>
+                <div class="content">    
+                <p> Iterative Methods for Systems of Equations (Fall 2023)</p>
+                <p> Numerical Linear Algebra (Spring 2023)</p>
+                <p> Modeling and Simulation (Spring 2023)</p>
+                <p> Computational Science and Engineering Algorithms (Fall 2022) </p>
+                <p> Viscous Fluid Flows (Fall 2022) </p>
                 </div>
             <button type="button" class="collapsible">Projects/Papers</button>
                 <div class="content">
