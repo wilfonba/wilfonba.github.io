@@ -33,6 +33,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   margin-left: 5px;
 }
 
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #474747;
+    border-radius: 4px;
+} 
+
 .active, .collapsible:hover {
   background-color: #828385;
 }
@@ -109,6 +117,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Publications')">Publications</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Work Experience')">Work Experience</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Education')">Education</button>
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('FFMPEG Cheat Sheet')">FFMPEG Cheat Sheet</button>
         </div>
 
         <div id="Home" class="w3-container tab w3-animate-bottom">
@@ -250,6 +259,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         </div>
 
+        <div id="FFMPEG Cheat Sheet" class="w3-container tab w3-animate-bottom" style="display:none">
+          <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+              <h2 class="w3-text-light-grey w3-padding-16 w3-center "><i></i>Common FFMPEG Tools</h2>
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Create a Video from a Sequence of PNG Images</b></h4>
+              <p> The following command can be used to make a .mp4 video from a series of images padded with zeros (<code>pic.00001.png</code>, <code>pic.0002.png</code>, ...).</code></p>
+              <code>ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4</code>
+              <p>The inputs are:</p>
+              <ul>
+                <li><code>-r</code> is the framerate</li>
+                <li><code>-crf</code> is the quality, lower means better quality</li>
+                <li><code>-S</code> (optional) video resolution in pixes</li>
+                <li><code>-pix_fmt</code> specifies the pixel format</li>
+              </ul>
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Stacking videos</b></h4>
+              <p>The following command can be used to vertically stack two videos with the same width.</p>
+              <code>ffmpeg -i 1.mp4 -i 2.mp4 -filter_complex vstack out.mp4</code>
+              <p>The following command can be used to horizontally stack two videos with the same height.</p>
+              <code>ffmpeg -i 1.mp4 -i 2.mp4 -filter_complex hstack out.mp4</code>
+              <p><code>N</code> videos can be stacked using the following.</p>
+              <code>ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex hstack=N out.mp4</code>
+              <p>A 2x2 array of compatible videos can be created using</p>
+              <code>ffmpeg -i input0 -i input1 -i input2 -i input3 -filter_complex "[0:v][1:v][2:v][3:v]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" -map "[v]" output</code>
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Dealing with an odd number of pixels</b></h4>
+
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Adding a .mp3 to a video</b></h4>
+              <p> The following command can be yused to add sound to video.</p>
+              <code>ffmpeg -r 30 -f image2 -i pic.%04d.png -i MP3FILE.mp3 -vcodec libx264 -b 4M -vpre normal -acodec copy test.mp4</code>
+              <p>The inputs are:</p>
+              <ul>
+                <li><code>-i MP3FILE.mp3</code> is the name of the audio file</li>
+                <li><code>-acodec copy</code> copies the audio from the input to the output stream</li>
+              </ul>
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Converting a video to .mp4</b></h4>
+              <p> The following command can be used to convert a video to .mp4.</p>
+              <coode>ffmpeg  -i INPUT.avi -vcodec libx264 -crf 25 OUTPUT.mp4</coode>
+              <hr>
+            </div>
+        </div>
 
 
     <!-- End Right Column -->
