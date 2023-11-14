@@ -302,6 +302,16 @@ code {
               <p> The following command can be used to convert a video to .mp4.</p>
               <coode>ffmpeg  -i INPUT.avi -vcodec libx264 -crf 25 OUTPUT.mp4</coode>
               <hr>
+              <h4 class="w3-text-light-grey"><b>Cropping a video</b></h4>
+              <p>The following command can be used to crop a video</p>
+              <code>ffmpeg -i input.mp4 -vf "crop=w:h:x:y" output.mp4</code>
+              <p>where the inputs are</p>
+              <ul>
+                <li><code>-vf</code> indicates the usage of a video filter</li>
+                <li><code>crop</code> is the name of the filter</li>
+                <li><code>w:h</code> is the width and height of the output video</li>
+                <li><code>x:y</code> is the coordinate from which the video will be cropped</li>
+              </ul>
             </div>
         </div>
 
