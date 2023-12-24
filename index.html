@@ -118,6 +118,7 @@ code {
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Work Experience')">Work Experience</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Education')">Education</button>
             <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('FFMPEG Cheat Sheet')">FFMPEG Cheat Sheet</button>
+            <button class="w3-bar-item w3-button w3-dark-grey" style="margin:5px" onclick="openTab('Personal Projects')">Personal Projects</button>
         </div>
 
         <div id="Home" class="w3-container tab w3-animate-bottom">
@@ -133,24 +134,29 @@ code {
             <hr>
             <h2 class="w3-center w3-text-light-grey"><b><i></i>Some of my Work</b></h2> 
             <div class=""w3-container"> 
-                <!-- <iframe width="840" height="473" src="https://www.youtube.com/embed/RaBrFTb66JE" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
-                </iframe>   -->
-                
-                <video width="100%" border-radius="10px" autoplay muted loop>
-                    <source src="Documents/shockDroplet.mp4" type="video/mp4">
+                <video width="100%" autoplay muted loop>
+                    <source src="res/shockDroplet.mp4" type="video/mp4">
                 </video>
                 
                 <h4 class="w3-center">Vorticy Shedding of a Shock Inpinged Droplet</h4>  
-                <p class="w3-justify"> Atomization of a 3D water droplet in air impinged by a Mach 1.46
+                <p class="w3-justify"> 
+                    Atomization of a 3D water droplet in air impinged by a Mach 1.46
                     shockwave. A 2000 x 1000 x 1000 cartesian grid is used to discretize the computationl
                     domain. The flow was simulated for 200k time-steps with snapshots saved every 1k
                     time-steps. The simulation required four hours of wall time using 960 GPUs on OLCF
                     Summit. The video shows the development of the isosurface at which the vorticity is
                     100k. 
                 </p> 
+                <hr>
+                <img src="res/interface.png" width="100%">
+                <h4 class="w3-center">Breakup of a Vibrated Air-Air Interface</h4>
+                <p class="w3-justify">
+                    Breakup of an air-air interface subjected to an oscillatory accelerating of 30g at 150 Hz in
+                    the vertical directions. A 500 x 500 x 5000 catesian grid is used to discretized the Computational
+                    domain. The flow was simulated for 250k time-steps with snapshots saved ever 1k time-steps. The
+                    simulation required six hours of wall time using 1320 GPUs on OLCF Summit. The image shows snapshots
+                    of the interface breakup at 0.25s intervals.
+                </p>
             </div>
         </div>
       </div>
@@ -322,6 +328,21 @@ code {
             </div>
         </div>
 
+        <div id="Personal Projects" class="w3-container tab w3-animate-bottom" style="display:none">
+            <div class="w3-container w3-card w3-dark-grey w3-margin-bottom">
+                <h2 class="w3-text-light-grey w3-padding-16 w3-center "><i></i>Personal Projects</h2>
+                <hr>
+                <h4 class="w3-text-light-grey"><b>Wood box with aperiodic 2D tiling</b></h4>
+                <img src="res/tilingBox.png" width="100%">
+                <hr>
+                <h4 class="w3-text-light-grey"><b>Laser cut ventillated laptop stand</b></h4>
+                <img src="res/laptopStand.png" width="100%">
+                <hr>
+                <h4 class="w3-text-light-grey"><b>Origami tesselation</b></h4>
+                <img src="res/tesselation1.png" width="100%">
+                <hr>
+            </div>
+        </div>
 
     <!-- End Right Column -->
     </div>
