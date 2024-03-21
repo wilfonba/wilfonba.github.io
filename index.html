@@ -128,34 +128,50 @@ code {
                 <p class="w3-justify"> I am a second year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
                 My primary research is on the modeling of gas liquid interfaces under high amplitude accelerations, but I also make regular
                 contributions to MFC, an exascale ready multiphase flow code that scales to 10's of thousands of GPUs. When I'm not busy with school
-                or research I enjoy spending time outdoors camping, hiking, and climbing or indoors playing board games and enjoying a craft beer.
+                or research I enjoy spending time outdoors camping, hiking, and climbing or indoors playing board games.
                 </p>
             </div>
             <hr>
             <h2 class="w3-center w3-text-light-grey"><b><i></i>Some of my Work</b></h2> 
             <div class=""w3-container"> 
                 <video width="100%" autoplay muted loop>
+                    <source src="res/airfoil.mp4" type="video/mp4">
+                </video>
+                
+                <h4 class="w3-center">Vorticity Resulting from Flow Around an Airfoil</h4>  
+                <p class="w3-justify"> 
+                    This video shows the vorticity sheeding of inviscid air over a NACA 2415 airfoil. A 3000 x 1500 x 500
+                    cartesian grid is used to discretize the computational domain. The flow was simulated for 93k time-steps
+                    with snapshots saved ever 500 time-steps. The simulation required 19 hours of wall time using 128 A100
+                    GPUs on NSCA Delta. The video shows the development of the isosurface at which the vorticity magnitude is
+                    1000.
+                </p> 
+                <hr>
+
+                <video width="100%" autoplay muted loop>
                     <source src="res/shockDroplet.mp4" type="video/mp4">
                 </video>
                 
                 <h4 class="w3-center">Vorticy Shedding of a Shock Inpinged Droplet</h4>  
                 <p class="w3-justify"> 
-                    Atomization of a 3D water droplet in air impinged by a Mach 1.46
+                    This video shows the atomization of a 3D water droplet in air impinged by a Mach 1.46
                     shockwave. A 2000 x 1000 x 1000 cartesian grid is used to discretize the computationl
                     domain. The flow was simulated for 200k time-steps with snapshots saved every 1k
-                    time-steps. The simulation required four hours of wall time using 960 GPUs on OLCF
-                    Summit. The video shows the development of the isosurface at which the vorticity is
+                    time-steps. The simulation required four hours of wall time using 960 V100 GPUs on OLCF
+                    Summit. The video shows the development of the isosurface at which the vorticity magnitude is
                     100k. 
                 </p> 
                 <hr>
-                <img src="res/interface.png" width="100%">
+                
+                <video width="100%" autoplay muted loop>
+                    <source src="res/300Hz.mp4" type="video/mp4">
+                </video>
                 <h4 class="w3-center">Breakup of a Vibrated Air-Air Interface</h4>
                 <p class="w3-justify">
-                    Breakup of an air-air interface subjected to an oscillatory accelerating of 30g at 150 Hz in
-                    the vertical directions. A 500 x 500 x 5000 catesian grid is used to discretized the Computational
+                    This video shows the breakup of an air-air interface subjected to an oscillatory accelerating of 30g at 300 Hz in
+                    the vertical directions. A 500 x 500 x 500 catesian grid is used to discretize the Computational
                     domain. The flow was simulated for 250k time-steps with snapshots saved ever 1k time-steps. The
-                    simulation required six hours of wall time using 1320 GPUs on OLCF Summit. The image shows snapshots
-                    of the interface breakup at 0.25s intervals.
+                    simulation required six hours of wall time using 132 V100 GPUs on OLCF Summit.
                 </p>
             </div>
         </div>
@@ -286,6 +302,13 @@ code {
                 <li><code>-S</code> (optional) video resolution in pixes</li>
                 <li><code>-pix_fmt</code> specifies the pixel format</li>
               </ul>
+              <hr>
+              <h4 class="w3-text-light-grey"><b>Playing one video after another</b></h4>
+              <p>The following command can be used to play a sequence of videos with the same width and height.</p>
+              <code>ffmpeg -f concat -i videos.txt -c copy joinedVideo.mp4</code>
+              <p>The file <code>videos.txt</code> contains an ordered list of videos with the following syntax: </p>
+              <code>file '/directory/Video1.mp4'<br>
+                    file '/directory/Video2.mp4'</code>
               <hr>
               <h4 class="w3-text-light-grey"><b>Stacking videos</b></h4>
               <p>The following command can be used to vertically stack two videos with the same width.</p>
