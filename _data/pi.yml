@@ -1,0 +1,16 @@
+- name: Ben Wilfong
+  photo: headshot.jpg
+  info: Graduate Research Assistant
+  email: bwilfong3@gatech.edu
+  github: https://github.com/wilfonba
+  researchgate: https://www.researchgate.net/profile/Benjamin-Wilfong
+  scholar: https://scholar.google.com/citations?user=I8cXvbYAAAAJ&hl=en
+  cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2022) Bs. Mechanical Engineering and Computational Science, Rose-Hulman Institute of Technology",
+    ]
+
+  educationshort:
+    ["(2022) Bs. Mech. Eng. and Cmptl. Sci., RHIT"]
