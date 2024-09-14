@@ -16,9 +16,9 @@ years: [2024]
 }
 </style>
 
-<div class="jumbotron">
 ### Archival Publications
-{% bibliography %}
-
+<div class="jumbotron">
+{% bibliography --query @unpublished %}
+{% bibliography --query @article,@inproceedings,@report %}
 </div>
 

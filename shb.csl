@@ -679,7 +679,9 @@
                     <text term="issue" form="short"/>
                   </if>
                 </choose>
+                <group delimiter=" ">
                 <text variable="number"/>
+                </group>
               </group>
             </group>
           </else>
@@ -705,6 +707,11 @@
         <text variable="title" form="short" font-style="italic" text-case="title"/>
       </else>
     </choose>
+  </macro>
+  <macro name="shblink">
+    <group prefix="Video: ">
+        <text variable="URL"/>
+    </group>
   </macro>
   <macro name="parenthetical">
     <!-- (Secondary contributors; Database location; Genre no. 123; Report Series 123, Version, Edition, Volume, Page) -->
@@ -1588,8 +1595,9 @@
               </group>
             </if>
           </choose>
-          <text variable="URL"/>
-          <text variable="address"/>
+          <!-- <text macro="shblink"/> -->
+          <!-- <text variable="URL"/> -->
+          <!-- <text variable="address"/> -->
         </group>
       </else-if>
     </choose>
@@ -1906,7 +1914,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="21" et-al-use-first="19" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="41" et-al-use-first="39" et-al-use-last="true" entry-spacing="0" line-spacing="2">
     <sort>
       <key macro="author-bib"/>
       <key macro="date-sort-group"/>

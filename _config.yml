@@ -62,7 +62,7 @@ scholar:
   last_name: Doe
   first_name: [John]
 
-  style: citesty
+  style: shb
   locale: en
 
   source: /assets/
