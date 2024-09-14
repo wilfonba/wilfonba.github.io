@@ -30,7 +30,7 @@ task :publish => [:generate] do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
     system "git remote add origin git@github.com:wilfonba/wilfonba.github.io"
-    system "git push origin main --force"
+    system "git push origin master --force"
 
     Dir.chdir pwd
   end
