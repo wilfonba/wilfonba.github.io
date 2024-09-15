@@ -30,8 +30,8 @@ nav_pages:
   - name: about
   - name: publications
   - name: research
+  - name: personal projects
   - name: ffmpeg cheat sheet
-  #- name: PARAVIEW TUTORIALS
 
 include:
   - .htaccess
