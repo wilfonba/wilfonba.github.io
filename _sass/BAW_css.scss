@@ -23,6 +23,10 @@ img {
   max-width: 800px;
 }
 
+.container-header {
+  max-width: 1400px;
+}
+
 .container-footer {
   margin-right: auto;
   margin-left: auto;
@@ -87,6 +91,53 @@ img {
 
 .MathJax_ref {
   fill: #00bc8c!important;
+}
+
+img {
+  max-width: 85%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 0px;
+  break-inside: avoid;
+}
+
+figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+figure a {
+  color: black;
+  text-decoration: none;
+}
+
+figcaption {
+  grid-row: 2;
+  grid-column: 1;
+  padding: .2em .5em;
+  justify-self: start;
+}
+
+.container {
+  column-count: 3;
+  column-gap: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container{
+    column-count: 1;
+  }
 }
 
 $link-color: $blue

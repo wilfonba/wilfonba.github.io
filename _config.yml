@@ -32,6 +32,7 @@ nav_pages:
   - name: research
   - name: personal projects
   - name: ffmpeg cheat sheet
+  - name: tikz examples
 
 include:
   - .htaccess
