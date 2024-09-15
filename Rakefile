@@ -6,13 +6,15 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
+require 'fileutils'
+
 ENV["JEKYLL_ENV"] = "production"
 
 File.open('CNAME', 'w') do |file|
   file.write('benwilfong.com')
 end
 
-rm -r _site
+FileUtils.rm_rf('_site')
 
 desc "Generate blog files"
 task :generate do
@@ -40,3 +42,6 @@ task :publish => [:generate] do
     Dir.chdir pwd
   end
 end
+
+FileUtils.rm_rf('_site')
+
