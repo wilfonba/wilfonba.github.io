@@ -12,6 +12,8 @@ File.open('CNAME', 'w') do |file|
   file.write('benwilfong.com')
 end
 
+rm -r _site
+
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
