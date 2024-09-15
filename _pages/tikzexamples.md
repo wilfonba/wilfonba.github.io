@@ -5,11 +5,12 @@ sitemap: false
 permalink: /tikz%20examples/
 images:
     - name: roofline
+    - name: weakScaling
     - name: butterflyNetwork
     - name: speedup
     - name: normalizedBreakdown
-    - name: weakScaling
     - name: omegaNetwork
+    - name: markovChain
 
 ---
 
