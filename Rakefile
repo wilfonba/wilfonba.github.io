@@ -8,6 +8,10 @@ require "jekyll"
 
 ENV["JEKYLL_ENV"] = "production"
 
+File.open('CNAME', 'w') do |file|
+  file.write('benwilfong.com')
+end
+
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
@@ -15,7 +19,6 @@ task :generate do
     "destination" => "_site"
   })).process
 end
-
 
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do

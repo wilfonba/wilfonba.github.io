@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'cv.blg'
-[43] biber-darwin:340> INFO - === Sat Sep 14, 2024, 16:22:57
-[52] Biber.pm:418> INFO - Reading 'cv.bcf'
-[99] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
-[108] Biber.pm:4383> INFO - Processing section 0
-[114] Biber.pm:4574> INFO - Looking for bibtex file 'publications.bib' for section 0
-[115] bibtex.pm:1713> INFO - LaTeX decoding ...
-[119] bibtex.pm:1518> INFO - Found BibTeX data source 'publications.bib'
-[154] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[154] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[154] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[155] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[157] bbl.pm:654> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[159] bbl.pm:757> INFO - Output to cv.bbl
+[44] biber-darwin:340> INFO - === Sat Sep 14, 2024, 21:42:51
+[54] Biber.pm:418> INFO - Reading 'cv.bcf'
+[101] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
+[109] Biber.pm:4383> INFO - Processing section 0
+[116] Biber.pm:4574> INFO - Looking for bibtex file 'publications.bib' for section 0
+[117] bibtex.pm:1713> INFO - LaTeX decoding ...
+[120] bibtex.pm:1518> INFO - Found BibTeX data source 'publications.bib'
+[153] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[153] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[153] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[153] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[155] bbl.pm:654> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[157] bbl.pm:757> INFO - Output to cv.bbl
