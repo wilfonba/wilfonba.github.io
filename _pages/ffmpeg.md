@@ -2,7 +2,7 @@
 title: "FFMPEG Cheat Sheet"
 layout: page
 sitemap: false
-permalink: /ffmpeg/
+permalink: /ffmpeg%20cheat%20sheet/
 ---
 
 <div class="jumbotron">

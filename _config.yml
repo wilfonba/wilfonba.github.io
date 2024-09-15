@@ -30,7 +30,7 @@ nav_pages:
   - name: about
   - name: publications
   - name: research
-  - name: ffmpeg
+  - name: ffmpeg cheat sheet
   #- name: PARAVIEW TUTORIALS
 
 include:
