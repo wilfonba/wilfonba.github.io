@@ -27,8 +27,8 @@ Some of these figures are strongly based on those created by Spencer H. Bryngels
 <div class="jumbotron">
 <!--<div class="col-md-12 col-sm-12">-->
 <!--#### Gallery-->
-<ul>
-<div class="container">
+<ul style="padding:0px">
+<div class="container" style="padding:0px">
     {% for image in page.images %}
         <figure>
         <a href="{{site.url}}{{site.baseurl}}/images/tikz/zips/{{ image.name }}.zip" download style="margin:10pt">
