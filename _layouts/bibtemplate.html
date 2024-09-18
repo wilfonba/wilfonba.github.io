@@ -36,6 +36,9 @@ ol li{
 {% if entry.type == "inproceedings" %}
 <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
 {% endif %}
+{% if entry.type == "misc" %}
+<center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">ABSTRACT</button></center>
+{% endif %}
 {% if entry.type == "report" %}
 <center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">REPORT</button></center>
 {% endif %}
