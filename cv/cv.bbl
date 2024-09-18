@@ -19,57 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{RADHAKRISHNAN2024}{article}{}
+    \entry{radhakrishnan24_CPC}{article}{}
       \name{author}{7}{}{%
-        {{hash=48d743e3f32531a682abdaf893ae7128}{%
+        {{hash=ad06910b5f439449e1094eb56e8c0676}{%
            family={Radhakrishnan},
            familyi={R\bibinitperiod},
-           given={Anand},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=77638c37871ee1414657b20f4b2e4d22}{%
+        {{hash=fc6bfd05e318ad3e435df3a650b204e0}{%
            family={{Le Berre}},
            familyi={L\bibinitperiod},
-           given={Henry},
+           given={H.},
            giveni={H\bibinitperiod}}}%
-        {{hash=3fa71035a3032ac7d469cf8586cb2ce1}{%
-           family={\textbf{Wilfong}},
+        {{hash=3ca2e6c864ea9f525d423a14d981dd08}{%
+           family={Wilfong},
            familyi={W\bibinitperiod},
-           given={\textbf{Benjamin}},
+           given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=2a0cfd2b7837f9335e19c4da07b1e283}{%
+        {{hash=6c70bc064c1b966f5f4a38e55bbc2a90}{%
            family={Spratt},
            familyi={S\bibinitperiod},
-           given={Jean-Sebastien},
+           given={J.-S.},
            giveni={J\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=518e55003c254882dedfbe6033de508c}{%
-           family={Rodriguez},
+        {{hash=0a992232fcaf39c6f289a6c9ddecbdf3}{%
+           family={{Rodriguez Jr.}},
            familyi={R\bibinitperiod},
-           given={Mauro},
+           given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=351c85f6c4eb5fbffbb89104eaeb6738}{%
+        {{hash=0e5ef1e26817a9e349b85d76f7968910}{%
            family={Colonius},
            familyi={C\bibinitperiod},
-           given={Tim},
+           given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=3b0ed02f4f59081e5007c8e1f0dd0119}{%
+        {{hash=b8b0f740477560cc1c751afd76fed555}{%
            family={Bryngelson},
            familyi={B\bibinitperiod},
-           given={Spencer\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{1eb46d77682fc17b2196309451b9d307}
-      \strng{fullhash}{1eb46d77682fc17b2196309451b9d307}
-      \strng{bibnamehash}{2af011432895160e012f9a232a903ae4}
-      \strng{authorbibnamehash}{2af011432895160e012f9a232a903ae4}
-      \strng{authornamehash}{1eb46d77682fc17b2196309451b9d307}
-      \strng{authorfullhash}{1eb46d77682fc17b2196309451b9d307}
+      \strng{namehash}{1aca2883bb593eb23826fd08213d00fb}
+      \strng{fullhash}{1aca2883bb593eb23826fd08213d00fb}
+      \strng{bibnamehash}{8796de245e6aac6320fafa1c0c0c9cc1}
+      \strng{authorbibnamehash}{8796de245e6aac6320fafa1c0c0c9cc1}
+      \strng{authornamehash}{1aca2883bb593eb23826fd08213d00fb}
+      \strng{authorfullhash}{1aca2883bb593eb23826fd08213d00fb}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0010-4655}
+      \field{abstract}{Multiphase compressible flows are often characterized by a broad range of space and time scales, entailing large grids and small time steps. Simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for many finite-volume and -difference methods, damping speedups. Even when realized, GPU-based kernels lead to more intrusive communication and I/O times owing to lower computation costs. We present a strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for directive-based offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access realized via CUDA-aware MPI and GPUDirect reduces halo-exchange communication time. We implement this approach in the open-source solver MFC [1]. Metaprogramming results in an 8-times speedup of the most expensive kernels compared to a statically compiled program, reaching 46\% of peak FLOPs on modern NVIDIA GPUs and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single NVIDIA A100 GPU is 7-times faster compared to an Intel Xeon Cascade Lake (6248) CPU die, or about 300-times faster compared to a single such CPU core. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on OLCF Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure the negligible contribution of data transfers (<1\% of the wall time for a typical, large simulation). Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.}
       \field{journaltitle}{Computer Physics Communications}
-      \field{title}{Method for scalable and performant GPU-accelerated simulation of multiphase compressible flow}
+      \field{title}{Method for portable, scalable, and performant {GPU}-accelerated simulation of multiphase compressible flow}
       \field{volume}{302}
       \field{year}{2024}
       \field{pages}{109238}
@@ -77,14 +77,16 @@
       \verb{doi}
       \verb 10.1016/j.cpc.2024.109238
       \endverb
-      \keyw{Computational fluid dynamics,Heterogeneous computing,Multiphase flows}
+      \verb{file}
+      \verb radhakrishnan-CPC-24.pdf
+      \endverb
     \endentry
-    \entry{wilfong2024ICNMMF}{inproceedings}{}
+    \entry{wilfong24_ICNMMF}{misc}{}
       \name{author}{3}{}{%
-        {{hash=3fa71035a3032ac7d469cf8586cb2ce1}{%
-           family={\textbf{Wilfong}},
+        {{hash=0e62ba9df62e9c4fc9e903e13aca4610}{%
+           family={Wilfong},
            familyi={W\bibinitperiod},
-           given={\textbf{Benjamin}},
+           given={Benjamin},
            giveni={B\bibinitperiod}}}%
         {{hash=48d743e3f32531a682abdaf893ae7128}{%
            family={Radhakrishnan},
@@ -100,12 +102,12 @@
       \list{location}{1}{%
         {Reykjavik, Iceland}%
       }
-      \strng{namehash}{2c822b100f47074fc6afdc971c82ab34}
-      \strng{fullhash}{2c822b100f47074fc6afdc971c82ab34}
-      \strng{bibnamehash}{2c822b100f47074fc6afdc971c82ab34}
-      \strng{authorbibnamehash}{2c822b100f47074fc6afdc971c82ab34}
-      \strng{authornamehash}{2c822b100f47074fc6afdc971c82ab34}
-      \strng{authorfullhash}{2c822b100f47074fc6afdc971c82ab34}
+      \strng{namehash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{fullhash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{bibnamehash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{authorbibnamehash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{authornamehash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{authorfullhash}{ab1e998af118d0eb40f2a4415c4ca846}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -113,19 +115,73 @@
       \field{booktitle}{5th International Conference on Numerical Methods for Multiphase Flow (ICNMMF)}
       \field{title}{Multiphase flow numerics: Perspectives from exascale simulation}
       \field{year}{2024}
+      \verb{file}
+      \verb wilfong24-ICNMMF.pdf
+      \endverb
     \endentry
-    \entry{wilfong2024AIAA}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=3fa71035a3032ac7d469cf8586cb2ce1}{%
-           family={\textbf{Wilfong}},
+    \entry{wilfong24_WACCPD}{unpublished}{}
+      \name{author}{6}{}{%
+        {{hash=0e62ba9df62e9c4fc9e903e13aca4610}{%
+           family={Wilfong},
            familyi={W\bibinitperiod},
-           given={\textbf{Benjamin}},
+           given={Benjamin},
            giveni={B\bibinitperiod}}}%
-        {{hash=0db183a219c3322db6f89bf5803fdb8d}{%
+        {{hash=48d743e3f32531a682abdaf893ae7128}{%
+           family={Radhakrishnan},
+           familyi={R\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e7517a8bc0127c77816d71135c19f2f9}{%
+           family={Berre},
+           familyi={B\bibinitperiod},
+           given={Henry\bibnamedelimb A.\bibnamedelimi Le},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c3ee0e542258d59014619205397c8fb1}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d84ec392f9f755b08e1ced22c5a6b36a}{%
+           family={Budiardja},
+           familyi={B\bibinitperiod},
+           given={Reuben\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3b0ed02f4f59081e5007c8e1f0dd0119}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={Spencer\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4390517277a26063e26cfab6f533009b}
+      \strng{fullhash}{4390517277a26063e26cfab6f533009b}
+      \strng{bibnamehash}{5b678f145a292d235338d8ad78a96fb1}
+      \strng{authorbibnamehash}{5b678f145a292d235338d8ad78a96fb1}
+      \strng{authornamehash}{4390517277a26063e26cfab6f533009b}
+      \strng{authorfullhash}{4390517277a26063e26cfab6f533009b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses 'gang vector' and 'collapse'. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and 95\% are observed when scaling to 50\% of Summit and 95\% of Frontier. Strong scaling efficiencies of 84\% and 81\% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD's MI250X increases to 92\% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.}
+      \field{note}{arxiv: 2409.10729}
+      \field{title}{OpenACC offloading of the MFC compressible multiphase flow solver on AMD and NVIDIA GPUs}
+      \field{year}{2024}
+      \verb{file}
+      \verb wilfong24-WACCPD.pdf
+      \endverb
+    \endentry
+    \entry{wilfong24_AIAA}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=a8829dfc223b896dbfe09263031a418a}{%
+           family={Wilfong},
+           familyi={W\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c0f5942c45b27cafce6a506e9f60b558}{%
            family={McMullen},
            familyi={M\bibinitperiod},
-           given={Ryan\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
         {{hash=ca545830a1cc81fe1de2c5210902213f}{%
            family={Koehler},
            familyi={K\bibinitperiod},
@@ -137,22 +193,25 @@
            given={Spencer\bibnamedelima H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Las Vegas, Nevada}%
-      }
-      \strng{namehash}{103c2ffa0beab3ffb3cef64932b17f79}
-      \strng{fullhash}{103c2ffa0beab3ffb3cef64932b17f79}
-      \strng{bibnamehash}{ead941c65481906a43b3bd9016cb364d}
-      \strng{authorbibnamehash}{ead941c65481906a43b3bd9016cb364d}
-      \strng{authornamehash}{103c2ffa0beab3ffb3cef64932b17f79}
-      \strng{authorfullhash}{103c2ffa0beab3ffb3cef64932b17f79}
+      \strng{namehash}{19b361f8fae9deb442d2d333bf7a8b46}
+      \strng{fullhash}{19b361f8fae9deb442d2d333bf7a8b46}
+      \strng{bibnamehash}{0e1aa7bbb9f58c8772bff8602e4fc79d}
+      \strng{authorbibnamehash}{0e1aa7bbb9f58c8772bff8602e4fc79d}
+      \strng{authornamehash}{19b361f8fae9deb442d2d333bf7a8b46}
+      \strng{authorfullhash}{19b361f8fae9deb442d2d333bf7a8b46}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{AIAA Aviation Forum and Exposition}
-      \field{title}{Instability of two-species interface via vibration}
-      \field{year}{2024}
+      \field{abstract}{Vibrating liquid–gas interfaces can break up due to hydrodynamic instability, resulting in gas injection into the liquid below it. The bubble injection phenomena can alter fluid-structural properties of mechanical assemblies and modify fuel composition. The primary Bjerknes force describes the seemingly counter-intuitive phenomenon that follows: gas bubbles sinking against buoyancy forces. The interface breakup that initializes the injection phenomenon is poorly understood and, as we show, depends on multiple problem parameters, including vibration frequency. This work uses an augmented 6-equation diffuse interface model with body forces and surface tension to simulate the initial breakup process. We show that a liquid–gas interface can inject a lighter gas into a heavier liquid, and that this process depends on parameters like the vibration frequency, vibration magnitude, and initial perturbation wavelength.}
+      \field{booktitle}{AIAA AVIATION FORUM AND ASCEND 2024}
+      \field{title}{Instability of Two-Species Interfaces via Vibration}
+      \verb{doi}
+      \verb 10.2514/6.2024-4480
+      \endverb
+      \verb{file}
+      \verb wilfong24-AIAA.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
