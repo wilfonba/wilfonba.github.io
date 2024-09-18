@@ -11,7 +11,7 @@ images:
     - name: normalizedBreakdown
     - name: omegaNetwork
     - name: markovChain
-
+    - name: nearestNeighbor
 ---
 
 <div class="jumbotron">
