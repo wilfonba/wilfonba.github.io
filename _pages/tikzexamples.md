@@ -10,6 +10,7 @@ images:
     - name: speedup
     - name: normalizedBreakdown
     - name: omegaNetwork
+    - name: strongScaling
     - name: markovChain
     - name: nearestNeighbor
 ---
