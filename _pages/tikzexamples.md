@@ -4,6 +4,7 @@ layout: page
 sitemap: false
 permalink: /tikz%20examples/
 images:
+    - name: nearestNeighbor
     - name: roofline
     - name: weakScaling
     - name: butterflyNetwork
@@ -12,7 +13,6 @@ images:
     - name: omegaNetwork
     - name: strongScaling
     - name: markovChain
-    - name: nearestNeighbor
 ---
 
 <div class="jumbotron">
