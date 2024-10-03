@@ -82,32 +82,29 @@
       \endverb
     \endentry
     \entry{wilfong24_ICNMMF}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=0e62ba9df62e9c4fc9e903e13aca4610}{%
+      \name{author}{2}{}{%
+        {{hash=3ca2e6c864ea9f525d423a14d981dd08}{%
            family={Wilfong},
            familyi={W\bibinitperiod},
-           given={Benjamin},
+           given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=48d743e3f32531a682abdaf893ae7128}{%
+        {{hash=5dce58bb69245833015eca695cb6a22a}{%
            family={Radhakrishnan},
            familyi={R\bibinitperiod},
-           given={Anand},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3b0ed02f4f59081e5007c8e1f0dd0119}{%
-           family={Bryngelson},
-           familyi={B\bibinitperiod},
-           given={Spencer\bibnamedelima H.},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           suffix={A.and\bibnamedelima Bryngelson},
+           suffixi={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Reykjavik, Iceland}%
       }
-      \strng{namehash}{ab1e998af118d0eb40f2a4415c4ca846}
-      \strng{fullhash}{ab1e998af118d0eb40f2a4415c4ca846}
-      \strng{bibnamehash}{ab1e998af118d0eb40f2a4415c4ca846}
-      \strng{authorbibnamehash}{ab1e998af118d0eb40f2a4415c4ca846}
-      \strng{authornamehash}{ab1e998af118d0eb40f2a4415c4ca846}
-      \strng{authorfullhash}{ab1e998af118d0eb40f2a4415c4ca846}
+      \strng{namehash}{891b15ac767d708ed9f85017198e3bd9}
+      \strng{fullhash}{891b15ac767d708ed9f85017198e3bd9}
+      \strng{bibnamehash}{891b15ac767d708ed9f85017198e3bd9}
+      \strng{authorbibnamehash}{891b15ac767d708ed9f85017198e3bd9}
+      \strng{authornamehash}{891b15ac767d708ed9f85017198e3bd9}
+      \strng{authorfullhash}{891b15ac767d708ed9f85017198e3bd9}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -121,43 +118,43 @@
     \endentry
     \entry{wilfong24_WACCPD}{unpublished}{}
       \name{author}{6}{}{%
-        {{hash=0e62ba9df62e9c4fc9e903e13aca4610}{%
+        {{hash=3ca2e6c864ea9f525d423a14d981dd08}{%
            family={Wilfong},
            familyi={W\bibinitperiod},
-           given={Benjamin},
+           given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=48d743e3f32531a682abdaf893ae7128}{%
+        {{hash=ad06910b5f439449e1094eb56e8c0676}{%
            family={Radhakrishnan},
            familyi={R\bibinitperiod},
-           given={Anand},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=e7517a8bc0127c77816d71135c19f2f9}{%
-           family={Berre},
-           familyi={B\bibinitperiod},
-           given={Henry\bibnamedelimb A.\bibnamedelimi Le},
-           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=c3ee0e542258d59014619205397c8fb1}{%
+        {{hash=03d697e4650d8e0adbd2fdf57d61a329}{%
+           family={{Le Berre}},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b584f404da6de71d5669c47cff629192}{%
            family={Abbott},
            familyi={A\bibinitperiod},
-           given={Steve},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=d84ec392f9f755b08e1ced22c5a6b36a}{%
+        {{hash=0a323918e3f4164de1008930f7a6f6cc}{%
            family={Budiardja},
            familyi={B\bibinitperiod},
-           given={Reuben\bibnamedelima D.},
+           given={R.\bibnamedelimi D.},
            giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=3b0ed02f4f59081e5007c8e1f0dd0119}{%
+        {{hash=b8b0f740477560cc1c751afd76fed555}{%
            family={Bryngelson},
            familyi={B\bibinitperiod},
-           given={Spencer\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{4390517277a26063e26cfab6f533009b}
-      \strng{fullhash}{4390517277a26063e26cfab6f533009b}
-      \strng{bibnamehash}{5b678f145a292d235338d8ad78a96fb1}
-      \strng{authorbibnamehash}{5b678f145a292d235338d8ad78a96fb1}
-      \strng{authornamehash}{4390517277a26063e26cfab6f533009b}
-      \strng{authorfullhash}{4390517277a26063e26cfab6f533009b}
+      \strng{namehash}{d9264535e0f1f77fe0a7059d0fe03b02}
+      \strng{fullhash}{d9264535e0f1f77fe0a7059d0fe03b02}
+      \strng{bibnamehash}{9ffbc00c0d5b9b699fe684da5c82fc88}
+      \strng{authorbibnamehash}{9ffbc00c0d5b9b699fe684da5c82fc88}
+      \strng{authornamehash}{d9264535e0f1f77fe0a7059d0fe03b02}
+      \strng{authorfullhash}{d9264535e0f1f77fe0a7059d0fe03b02}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -172,33 +169,33 @@
     \endentry
     \entry{wilfong24_AIAA}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=a8829dfc223b896dbfe09263031a418a}{%
+        {{hash=3bce8649bdf62df244fab9be6d8e811c}{%
            family={Wilfong},
            familyi={W\bibinitperiod},
-           given={Benjamin\bibnamedelima A.},
+           given={B.\bibnamedelimi A.},
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c0f5942c45b27cafce6a506e9f60b558}{%
+        {{hash=2ab377b2c69a0b2ab44cc0def7e789d7}{%
            family={McMullen},
            familyi={M\bibinitperiod},
-           given={Ryan},
+           given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=ca545830a1cc81fe1de2c5210902213f}{%
+        {{hash=d61f60b01b5f28494e2c4deadf364ff8}{%
            family={Koehler},
            familyi={K\bibinitperiod},
-           given={Timothy},
+           given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=3b0ed02f4f59081e5007c8e1f0dd0119}{%
+        {{hash=b8b0f740477560cc1c751afd76fed555}{%
            family={Bryngelson},
            familyi={B\bibinitperiod},
-           given={Spencer\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{19b361f8fae9deb442d2d333bf7a8b46}
-      \strng{fullhash}{19b361f8fae9deb442d2d333bf7a8b46}
-      \strng{bibnamehash}{0e1aa7bbb9f58c8772bff8602e4fc79d}
-      \strng{authorbibnamehash}{0e1aa7bbb9f58c8772bff8602e4fc79d}
-      \strng{authornamehash}{19b361f8fae9deb442d2d333bf7a8b46}
-      \strng{authorfullhash}{19b361f8fae9deb442d2d333bf7a8b46}
+      \strng{namehash}{9344fa74ed1eb7e4adec0cc57e292574}
+      \strng{fullhash}{9344fa74ed1eb7e4adec0cc57e292574}
+      \strng{bibnamehash}{b6d1f803145a85d7627d57c1147a3bcb}
+      \strng{authorbibnamehash}{b6d1f803145a85d7627d57c1147a3bcb}
+      \strng{authornamehash}{9344fa74ed1eb7e4adec0cc57e292574}
+      \strng{authorfullhash}{9344fa74ed1eb7e4adec0cc57e292574}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
