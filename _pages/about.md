@@ -23,16 +23,48 @@ permalink: /about/
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
 
-  <ul style="overflow: hidden">
-    {% for education in member.education %}
-      <li>{{ education | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
+  <!--<ul style="overflow: hidden">-->
+    <!--{% for education in member.education %}-->
+      <!--<li>{{ education | replace: "-","&#8211;" }}</li>-->
+    <!--{% endfor %}-->
+  <!--</ul>-->
 
 </div>
 </div>
 </div>
 {% endfor %}
+
+{% if site.data.education %}
+
+<div class="jumbotron">
+  <h3>Education</h3>
+  <ul>
+    {% for education in site.data.education %}
+      <h5>{{ education.name }}</h5>
+      <table style="table-layout: auto; width: auto;">
+        <tr>
+          <th style="white-space: nowrap">{{ education.date }}</th>
+          <th>{{ education.degree }}</th>
+        </tr>
+        {% if education.advisor %}
+           <tr>
+            <td> </td>
+            <td><i>Advisor:</i> {{ education.advisor }}</td>
+          </tr>
+        {% endif %}
+        {% if education.coursework %}
+           <tr>
+            <td> </td>
+            <td><i>Relevant Coursework:</i> {{ education.coursework }}</td>
+          </tr>
+        {% endif %}
+      </table>
+      <p></p>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endif %}
 
 {% if site.data.grants %}
 
