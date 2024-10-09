@@ -5,6 +5,17 @@ sitemap: false
 permalink: /ffmpeg%20cheat%20sheet/
 ---
 
+<script>
+    function copyToClipboard() {
+        var codeSnippet = document.getElementById('code-snippet').innerText;
+        navigator.clipboard.writeText(codeSnippet).then(function() {
+            alert('Code copied to clipboard!');
+        }, function() {
+            alert('Failed to copy code.');
+        });
+    }
+</script>
+
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Create a video from a sequence of PNG images

@@ -125,4 +125,15 @@ figcaption {
   display: table;
 }
 
+/* Styling for the code block */
+pre {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;;
+    margin: 0;
+}
+
 $link-color: $blue
