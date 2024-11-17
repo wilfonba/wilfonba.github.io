@@ -1,3 +1,9 @@
+- date: 16 November, 2024
+  headline: "I'll be at APS DFD in Salt Lake City next week presenting my work on [Hydrodynamic instability and breakup of a liquid-gas interface via vibration](https://meetings.aps.org/Meeting/DFD24/Session/L20.10){:target='_blank'}."
+
+- date: 16 November, 2024
+  headline: "I'll be at SC24 here in Atlanta this week to present my paper [OpenACC offloading of the MFC compressible multiphase flow solver on AMD and NVIDIA GPUs](https://sc24.conference-program.com/presenter/?uid=679414){:target='_blank'}."
+
 - date: 17 September, 2024
   headline: "My paper on accelerating [MFC](https://mflowcode.github.io){:target='_blank'} on NVIDIA and AMD GPUs is now on [arXiv](https://arxiv.org/abs/2409.10729){:target='_blank'}. Thanks to our collaborators, Steve Abbot at HPE/Cray and Reuben Budiardja at Oak Ridge!"
 

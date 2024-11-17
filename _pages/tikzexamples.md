@@ -32,7 +32,7 @@ Some of these figures are strongly based on those created by Spencer H. Bryngels
 <div class="container" style="padding:0px">
     {% for image in page.images %}
         <figure>
-        <a href="{{site.url}}{{site.baseurl}}/images/tikz/zips/{{ image.name }}.zip" download style="margin:10pt">
+        <a href="{{site.url}}{{site.baseurl}}/images/tikz/zips/{{ image.name }}.zip" download style="margin:5pt">
           <img src="{{site.url}}{{site.baseurl}}/images/tikz/figs/{{ image.name }}.svg" alt="{{image.name}}" width="100%" style="border-radius:10px">
         </a>
         </figure>
