@@ -9,16 +9,8 @@
 \usepackage{transparent}
 \usepackage{lastpage}
 \usepackage{refcount}
-\usepackage[
-  backend      = biber,
-  doi          = true,
-  giveninits   = false,
-  maxcitenames = 99,
-  isbn         = false,
-  url          = false,
-]{biblatex}
+\usepackage[backend=bibtex,defernumbers=true,sorting=ydnt,style=authoryear,doi=true,maxnames=99,url=true]{biblatex}
 \addbibresource{ref.bib}
-
 
 \makeatletter
 \AddEnumerateCounter*{\reversearabic}{\@reversearabic}{2}
@@ -68,7 +60,8 @@
 \textbf{Institution:} Georgia Institute of Technology \\
 \textbf{Email:} \href{mailto:bwilfong3@gatech.edu}{\texttt{bwilfong3@gatech.edu}} \\
 \textbf{Website:} \href{https://benwilfong.com}{\texttt{benwilfong.com}} \\
-\textbf{Research Interests:} Computational fluid dynamics, bubble dynamics, hydrodynamic instability, multiphase fluid dynamics, high performance computing, GPU accelerated modeling and simulation
+\textbf{GitHub:} \href{https://github.com/wilfonba}{\texttt{github.com/wilfonba}} \\
+\textbf{Research Interests:} Computational fluid dynamics, hydrodynamic instability, multiphase fluid dynamics, high performance computing, GPU accelerated modeling and simulation
 
 \section{Education}
 \begin{itemize}
@@ -89,14 +82,14 @@
         \setlength\itemsep{-0.3em}
         \item[\textbf{Institution:}] Lawrence Livermore National Laboratory
         \item[\textbf{Supervisor:}] Dr. Kyle Sinding
-        \item[\textbf{Duties:}] Perform finite element simulation using LLNL's HPC resources using ALE3D, generate case files and input data, post-process data to gather useful quantities of interest
+        \item[\textbf{Duties:}] Perform finite element simulation using LLNL's HPC resources using ALE3D, generate case files and input data, post-process data to gather useful quantities of interest like shock wave arrival time and pressure profiles
     \end{itemize}
     \item  EERE High Performance Computing for Manufacturing Intern \hfill June 2021 -- August 2021
     \begin{itemize}[leftmargin=0.875in]
         \setlength\itemsep{-0.3em}
         \item[\textbf{Institution:}] Lawrence Livermore National Laboratory in collaboration with Oak Ridge Institute for Science and Education (ORISE)
         \item[\textbf{Supervisor:}] Dr. John Karnes
-        \item[\textbf{Duties:}] Perform molecular dynamics simulations using LLNL's HPC resources using LAMMPS, generate case files and input data, post-process data to gather useful quantities of interest
+        \item[\textbf{Duties:}] Perform molecular dynamics simulations using LLNL's HPC resources using LAMMPS, generate case files and input data, post-process data to gather useful quantities of interest like reaction rates and percent conversion
 
     \end{itemize}
 \end{itemize}
@@ -108,9 +101,17 @@
     \item (2018-22) Deans List, Rose--Hulman Institute of Technology
 \end{itemize}
 
+\section{Professional activity}
+
+\subsection{Memberships}
+\begin{itemize}
+    \item (2024-Present) Association for Computing Machinery (ACM), Member
+    \item (2024-Present) American Physical Society (APS), Member
+\end{itemize}
+
 \section{Service and Outreach}
 \begin{itemize}
-    \item (2023-Present) PURA Award Reviewer
+    \item (2023-Present) Presidents undergraduate research award reviewer
     \item (2023-Present) CSE Graduate Student Association vice-president
     \item (2022-23) CSE Graduate Student Association events officer
     \end{itemize}
@@ -133,7 +134,15 @@
 \subsection{Abstracts}
 
 \begin{etaremune}[label={[A\reversearabic*]}]
+    \item \fullcite{wilfong24_DFD}
     \item \fullcite{wilfong24_ICNMMF}
 \end{etaremune}
+
+\section{Skills}
+
+\begin{itemize}
+\item \textit{Programming Languages/Paradigms:} Fortran, OpenACC, MPI, Matlab, Bash
+\item \textit{Software and Tools:} Paraview, VisIt, Solidworks, SLURM, PBS, Nsys Systems, Nsight Compute, RocProf, Omniperf, fypp
+\end{itemize}
 
 \end{document}

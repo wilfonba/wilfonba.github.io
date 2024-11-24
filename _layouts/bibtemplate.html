@@ -3,11 +3,11 @@
 
 <style>
 pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
     width:100%; overflow-x:auto;
     <!-- background-color: red; -->
 }
@@ -31,13 +31,14 @@ ol li{
 <!-- <div class="col-sm-2 col-xs-2"> -->
 {% if entry.type == "article" %}
 <center><button class="btn btn-success btm-sm Disabled" style="width:100%;border-radius:12px;">ARTICLE</button></center>&nbsp;&nbsp;
-    
+
 {% endif %}
 {% if entry.type == "inproceedings" %}
-<center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
-{% endif %}
-{% if entry.type == "misc" %}
-<center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">ABSTRACT</button></center>
+    {% if entry.keywords contains "abstract" %}
+        <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">ABSTRACT</button></center>
+    {% else %}
+        <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
+    {% endif %}
 {% endif %}
 {% if entry.type == "report" %}
 <center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">REPORT</button></center>

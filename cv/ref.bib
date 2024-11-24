@@ -1,11 +1,21 @@
-@inproceedings{proceeding_25,
+@inproceedings{wilfong24_DFD,
+  title = {{Hydrodynamic instability and breakup of a liquid-gas interface via vibration}},
+  author = {Wilfong, B. and Chu, T. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
+  booktitle = {74th Annual Meeting of the APS Division of Fluid Dynamics (APS DFD)},
+  year = {2024},
+  address = {Salt Lake City, UT},
+  keywords = {abstract},
+  abstract = {Liquid-gas interfaces break up when subjected to large-amplitude oscillatory accelerations due to hydrodynamic instability. Interface breakup can lead to the injection of the gas phase into the liquid phase below. This gas injection can alter damping properties of fluid-structural systems and depends on the nature of early-stage interface breakup. The breakup that leads to gas injection depends on the configuration details, including the vibration frequency, acceleration amplitude, and character of the initial interface perturbation. We use a 6-equation Baer-Nunziato type diffuse interface model equipped with body force and surface tension effects to simulate early-stage interface breakup and the resulting injection of the gas into the liquid below it. The results indicate a reasonable agreement between simulation growth rates and linear stability analysis, as well as growth-rate independence across random interface perturbations at oscillating accelerations on the order of ten times Earth's gravity with frequencies in the hundreds of hertz. The formation of droplets due to the Rayleigh-Plateau instability in the jetting resulting from the violent acceleration is observed, as well as the entrainment of gas. The volume of ejected droplets and entrained gas are reported over time.}
+}
+
+@inproceedings{wilfong24_WACCPD,
   title = {{OpenACC} offloading of the {MFC} compressible multiphase flow solver on {AMD} and {NVIDIA GPUs}},
   author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. A. and Abbott, S. and Budiardja, R. D. and Bryngelson, S. H.},
   booktitle = {Proceedings of the SC '24 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
   year = {2024},
   doi = {10.48550/arXiv.2409.10729},
   file = {wilfong24-WACCPD.pdf},
-  abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses ’gang vector’ and ’collapse’. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and 95\% are observed when scaling to 50% of Summit and 95\% of Frontier. Strong scaling efficiencies of 84\% and 81\% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD’s MI250X increases to 92\% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.}
+  abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses ’gang vector’ and ’collapse’. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and 95\% are observed when scaling to 50\% of Summit and 95\% of Frontier. Strong scaling efficiencies of 84\% and 81\% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD’s MI250X increases to 92\% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.}
 }
 
 @inproceedings{wilfong24_AIAA,
@@ -19,12 +29,13 @@
     abstract = { Vibrating liquid–gas interfaces can break up due to hydrodynamic instability, resulting in gas injection into the liquid below it. The bubble injection phenomena can alter fluid-structural properties of mechanical assemblies and modify fuel composition. The primary Bjerknes force describes the seemingly counter-intuitive phenomenon that follows: gas bubbles sinking against buoyancy forces. The interface breakup that initializes the injection phenomenon is poorly understood and, as we show, depends on multiple problem parameters, including vibration frequency. This work uses an augmented 6-equation diffuse interface model with body forces and surface tension to simulate the initial breakup process. We show that a liquid–gas interface can inject a lighter gas into a heavier liquid, and that this process depends on parameters like the vibration frequency, vibration magnitude, and initial perturbation wavelength.},
 }
 
-@misc{wilfong24_ICNMMF,
-  author    = {Wilfong, B. and Radhakrishnan, A.and Bryngelson, S. H.},
-  title     = {Multiphase flow numerics: Perspectives from exascale simulation},
+@inproceedings{wilfong24_ICNMMF,
+  author    = {Wilfong, B. and Radhakrishnan, A. and Bryngelson, S. H.},
+  title     = {{Multiphase flow numerics: Perspectives from exascale simulation}},
   booktitle = {5th International Conference on Numerical Methods for Multiphase Flow (ICNMMF)},
   file = {wilfong24-ICNMMF.pdf},
   year      = {2024},
+  keywords = {abstract},
   address   = {Reykjavik, Iceland},
 }
 
