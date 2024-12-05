@@ -4,6 +4,8 @@ layout: page
 sitemap: false
 permalink: /tikz%20examples/
 images:
+    - name: ELBubble
+    - name: D3Q19
     - name: nearestNeighbor
     - name: weakScaling
     - name: butterflyNetwork
