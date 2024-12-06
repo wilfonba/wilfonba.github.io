@@ -4,6 +4,7 @@ layout: page
 sitemap: false
 permalink: /tikz%20examples/
 images:
+    - name: twoPhase
     - name: ELBubble
     - name: D3Q19
     - name: nearestNeighbor

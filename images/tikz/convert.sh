@@ -12,7 +12,7 @@
 pdf2svg $1/$1.pdf $1.svg
 
 sed -i '' '2a\
-<rect width="100%" height="100%" fill="lightgray"/>' $1.svg
+<rect width="100%" height="100%" fill="white"/>' $1.svg
 
 zip -r $1.zip $1
 
