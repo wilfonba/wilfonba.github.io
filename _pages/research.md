@@ -51,7 +51,7 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Shock Droplet Vorticity Shetting</H4>
+<h4>Shock Droplet Vorticity Shedding</H4>
 <iframe src="https://www.youtube.com/embed/RaBrFTb66JE?si=rR6ZQtt1msZHuYJs&amp;controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
