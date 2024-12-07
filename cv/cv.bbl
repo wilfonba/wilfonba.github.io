@@ -148,6 +148,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{abstract}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -207,6 +208,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{abstract}
     \strng{namehash}{WBRABSH1}
     \strng{fullhash}{WBRABSH1}
     \field{labelnamesource}{author}
