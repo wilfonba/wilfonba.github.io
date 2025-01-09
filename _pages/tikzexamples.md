@@ -4,6 +4,7 @@ layout: page
 sitemap: false
 permalink: /tikz%20examples/
 images:
+    - name: torus
     - name: twoPhase
     - name: ELBubble
     - name: D3Q19
