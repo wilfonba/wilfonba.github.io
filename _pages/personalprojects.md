@@ -35,7 +35,7 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Wood box with periodic 2D tiling</h4>
+<h4>Wood box with aperiodic 2D tiling</h4>
 <img src="{{site.url}}{{site.baseurl}}/images/tilingBox.png" width="100%">
 </div>
 </div>
