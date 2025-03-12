@@ -17,6 +17,164 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
+  \entry{wilfong252}{unpublished}{}
+    \name{author}{18}{}{%
+      {{hash=WB}{%
+         family={*Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={*{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={*Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VRD}{%
+         family={Vaca-Revelo},
+         familyi={V\bibinithyphendelim R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CJR}{%
+         family={Chreim},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={{Carcana Barbosa}},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CGE}{%
+         family={Cisneros-Garibay},
+         familyi={C\bibinithyphendelim G\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gnanaskandan},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={{Rodriguez Jr.}},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BRD}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Colonius},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBLHRAGAVRDADYHLHCJRCMZYCGEGARMBRDASCTBSH1}
+    \strng{fullhash}{WBLHRAGAVRDADYHLHCJRCMZYCGEGARMBRDASCTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Many problems of interest in engineering, medicine, and the fundamental
+  sciences rely on high-fidelity flow simulation, making performant
+  computational fluid dynamics solvers a mainstay of the open-source software
+  community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021)) made
+  MFC 3.0 a published, documented, and open-source source solver with numerous
+  physical features, numerical methods, and scalable infrastructure. MFC 5.0 is
+  a marked update to MFC 3.0, including a broad set of well-established and
+  novel physical models and numerical methods and the introduction of GPU and
+  APU (or superchip) acceleration. We exhibit state-of-the-art performance and
+  ideal scaling on the first two exascale supercomputers, OLCF Frontier and
+  LLNL El Capitan. Combined with MFC’s single-GPU/APU performance, MFC
+  achieves exascale computation in practice. With these capabilities, MFC has
+  evolved into a tool for conducting simulations that many engineering
+  challenge problems hinge upon. New physical features include the immersed
+  boundary method, N-fluid phase change, Euler–Euler and Euler–Lagrange
+  sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic
+  materials, chemically reacting flow, two-material surface tension, and more.
+  Numerical techniques now represent the current state-of-the-art, including
+  general relaxation characteristic boundary conditions, WENO variants, Strang
+  splitting for stiff sub-grid flow features, and low Mach number treatments.
+  Weak scaling to tens of thousands of GPUs on OLCF Summit and Frontier and
+  LLNL El Capitan see efficiencies within 5\% of ideal to over 90\% of their
+  respective system sizes. Strong scaling results for a 16-times increase in
+  device count see parallel efficiencies over 90\% on OLCF Frontier. Other MFC
+  improvements include ensuring code resilience and correctness with a
+  continuous integration suite, the use of metaprogramming to reduce code
+  length and maintain performance portability, and efficient computational
+  representations for chemical reactions and thermodynamics via code generation
+  with Pyrometheus.%
+    }
+    \field{note}{arXiv:2503.07953, {*}Equal contribution}
+    \field{title}{MFC 5.0: An exascale many-physics flow solver}
+    \verb{file}
+    \verb wilfong-arxiv-25.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{radhakrishnan24_CPC}{article}{}
     \name{author}{7}{}{%
       {{hash=RA}{%
