@@ -167,7 +167,9 @@
   representations for chemical reactions and thermodynamics via code generation
   with Pyrometheus.%
     }
-    \field{note}{arXiv:2503.07953, {*}Equal contribution}
+    \verb{doi}
+    \verb 10.48550/arXiv.2503.07953
+    \endverb
     \field{title}{MFC 5.0: An exascale many-physics flow solver}
     \verb{file}
     \verb wilfong-arxiv-25.pdf
