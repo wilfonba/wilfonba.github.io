@@ -35,8 +35,22 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
+<h4>Mach 1.5 Jets of Hot Gas</h4>
+<iframe src="https://www.youtube.com/embed/FkGRE4yc6zw?si=1KjNpQ3SGv1pZ7Ay" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Mach 1.5 Shock Helium Bubble Interaction</h4>
+<iframe src="https://www.youtube.com/embed/R2Op04j8wyk?si=vGvfWeOMYQ8q6vkL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
 <h4>Mach 2 Flow over a Sphere</h4>
-<iframe src="https://www.youtube.com/embed/ouUX7PWpk6Y?si=Yz0kx5GkhIAOoIWa&amp;controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ouUX7PWpk6Y?si=Yz0kx5GkhIAOoIWa" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -44,7 +58,7 @@ iframe {
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Flow over a NACA 2415 Airfoil</h4>
-<iframe src="https://www.youtube.com/embed/jQ0wjy9lX3A?si=qhtK-yd8V4SJkPn6&amp;controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/jQ0wjy9lX3A?si=qhtK-yd8V4SJkPn6" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -52,6 +66,6 @@ iframe {
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Shock Droplet Vorticity Shedding</H4>
-<iframe src="https://www.youtube.com/embed/RaBrFTb66JE?si=rR6ZQtt1msZHuYJs&amp;controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/RaBrFTb66JE?si=rR6ZQtt1msZHuYJs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
