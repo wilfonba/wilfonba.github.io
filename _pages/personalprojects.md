@@ -40,8 +40,6 @@ iframe {
 </div>
 </div>
 
-
-
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Wood box with aperiodic 2D tiling</h4>
@@ -49,14 +47,12 @@ iframe {
 </div>
 </div>
 
-
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Laser cut ventillated laptop stand</h4>
 <img src="{{site.url}}{{site.baseurl}}/images/laptopStand.png" width="100%">
 </div>
 </div>
-
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
