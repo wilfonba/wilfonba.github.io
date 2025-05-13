@@ -170,9 +170,110 @@
     \verb{doi}
     \verb 10.48550/arXiv.2503.07953
     \endverb
+    \field{note}{{*}Equal contribution}
     \field{title}{MFC 5.0: An exascale many-physics flow solver}
     \verb{file}
     \verb wilfong-arxiv-25.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{wilfong253}{unpublished}{}
+    \name{author}{10}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tselepidis},
+         familyi={T\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Dorschner},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cornille},
+         familyi={C\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={{*}Schäfer},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={{*}Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBRALHTNDBBRCBASSFBSH1}
+    \strng{fullhash}{WBRALHTNDBBRCBASSFBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    This work proposes a method and optimized implementation for exascale
+  simulations of high-speed compressible fluid flows, enabling the simulation
+  of multi-engine rocket craft at an unprecedented scale. We significantly
+  improve upon the state-of-the-art in terms of computational cost and memory
+  footprint through a carefully crafted implementation of the recently proposed
+  information geometric regularization, which eliminates the need for numerical
+  shock capturing. Unified addressing on tightly coupled CPU-GPU platforms
+  increases the total problem size with negligible performance hit. Despite
+  linear stencil algorithms being memory-bound, we achieve wall clock times
+  that are four times faster than optimized baseline numerics. This enables the
+  execution of CFD simulations at more than 100 trillion grid points,
+  surpassing the largest state-of-the-art publicly available simulations by an
+  order of magnitude. Ideal weak scaling is demonstrated on OLCF Frontier and
+  CSCS Alps using the full system, entailing 37.8K AMD MI250X GPUs (Frontier)
+  or 9.2K NVIDIA GH200 superchips (Alps).%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2505.07392
+    \endverb
+    \field{note}{{*}Equal contribution}
+    \field{title}{Simulating many-engine spacecraft: {E}xceeding 100 trillion
+  grid points via information geometric regularization and the MFC flow solver}
+    \verb{file}
+    \verb wilfong-arxiv-25-2.pdf
     \endverb
     \field{year}{2025}
   \endentry
@@ -496,9 +597,10 @@
     \strng{fullhash}{WBAMRKTBSH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{9}
-    \field{sortinithash}{9}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
     \field{abstract}{%
     Vibrating liquid–gas interfaces can break up due to hydrodynamic
   instability, resulting in gas injection into the liquid below it. The bubble
@@ -522,6 +624,7 @@
     \verb{file}
     \verb wilfong24-AIAA.pdf
     \endverb
+    \field{year}{2024}
   \endentry
 \enddatalist
 \endinput
