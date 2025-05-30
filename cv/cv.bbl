@@ -17,6 +17,75 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
+  \entry{tchu253}{unpublished}{}
+    \name{author}{5}{}{%
+      {{hash=CT}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTWBKTMRMBSH1}
+    \strng{fullhash}{CTWBKTMRMBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Fluid-fluid interfacial instability and subsequent fluid mixing are
+  ubiquitous in nature and engineering. Two hydrodynamic instabilities have
+  long been thought to govern the interface behavior: the pressure
+  gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and
+  resonance-induced short-wavelength Faraday instability. However, neither
+  instability alone can explain the dynamics when both mechanisms act
+  concurrently. Instead, we identify a previously unseen multi-modal
+  instability emerging from their coexistence. We show how vibrations govern
+  transitions between the RT and Faraday instabilities, with the two competing
+  instead of resonantly enhancing each other. The initial transient growth is
+  captured by the exponential modal growth of the most unstable Floquet
+  exponent, along with its accompanying periodic behavior. Direct numerical
+  simulations validate these findings and track interface breakup into the
+  multiscale and nonlinear regimes, in which the growing RT modes are shown to
+  suppress Faraday responses via a nonlinear mechanism.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2505.23578
+    \endverb
+    \field{title}{Competing mechanisms at vibrated interfaces of
+  density-stratified fluids}
+    \verb{file}
+    \verb chu-rt-arxiv-25.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{wilfong252}{unpublished}{}
     \name{author}{18}{}{%
       {{hash=WB}{%
