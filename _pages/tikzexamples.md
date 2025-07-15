@@ -6,6 +6,7 @@ permalink: /tikz%20examples/
 images:
     - name: torus
     - name: twoPhase
+    - name: C2CSchematic
     - name: ELBubble
     - name: D3Q19
     - name: nearestNeighbor
