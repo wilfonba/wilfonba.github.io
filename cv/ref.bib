@@ -1,0 +1,84 @@
+@unpublished{wilfong253,
+  author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. and Vickers, D. J. and Prathi, T. and Tselepidis, N. and Dorschner, B. and Budiardja, R. and Cornille, B. and Abbott, S. and {*}Schäfer, F. and {*}Bryngelson, S. H.},
+  title = {Simulating many-engine spacecraft: {E}xceeding 1 quadrillion degrees of freedom via information geometric regularization},
+  note = {arXiv:2505.07392, {*}Equal contribution},
+  file = {wilfong-arxiv-25-2.pdf},
+  arxiv = {arXiv.2505.07392},
+  year = {2025},
+  doi = {10.48550/arXiv.2505.07392},
+  abstract = {We present an optimized implementation of the recently proposed information geometric regularization (IGR) for unprecedented scale simulation of compressible fluid flows applied to multi-engine spacecraft boosters. We improve upon state-ofthe-art computational fluid dynamics (CFD) techniques along computational cost, memory footprint, and energy-to-solution metrics. Unified memory on coupled CPU–GPU or APU platforms increases problem size with negligible overhead. Mixed half/singleprecision storage and computation on well-conditioned numerics is used. We simulate flow at 200 trillion grid points and 1 quadrillion degrees of freedom, exceeding the current record by a factor of 20. A factor of 4 wall-time speedup is achieved over optimized baselines. Ideal weak scaling is seen on OLCF Frontier, LLNL El Capitan, and CSCS Alps using the full systems. Strong scaling is near ideal at extreme conditions, including 80\% efficiency on CSCS Alps with an 8 node baseline and stretching to the full system.}
+}
+
+@unpublished{wilfong252,
+  author = {*Wilfong, B. and *{Le Berre}, H. and *Radhakrishnan, A. and Gupta, A. and Vaca-Revelo, D. and Adam, D. and Yu, H. and Lee, H. and Chreim, J. R. and {Carcana Barbosa}, M. and Zhang, Y. and Cisneros-Garibay, E. and Gnanaskandan, A. and {Rodriguez Jr.}, M. and Budiardja, R. D. and Abbott, S. and Colonius, T. and Bryngelson, S. H.},
+  title = {MFC 5.0: An exascale many-physics flow solver},
+  note = {{*}Equal contribution},
+  doi = {10.48550/arXiv.2503.07953},
+  file = {wilfong-arxiv-25.pdf},
+  year = {2025},
+  abstract = {Many problems of interest in engineering, medicine, and the fundamental sciences rely on high-fidelity flow simulation, making performant computational fluid dynamics solvers a mainstay of the open-source software community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021)) made MFC 3.0 a published, documented, and open-source source solver with numerous physical features, numerical methods, and scalable infrastructure. MFC 5.0 is a marked update to MFC 3.0, including a broad set of well-established and novel physical models and numerical methods and the introduction of GPU and APU (or superchip) acceleration. We exhibit state-of-the-art performance and ideal scaling on the first two exascale supercomputers, OLCF Frontier and LLNL El Capitan. Combined with MFC’s single-GPU/APU performance, MFC achieves exascale computation in practice. With these capabilities, MFC has evolved into a tool for conducting simulations that many engineering challenge problems hinge upon. New physical features include the immersed boundary method, N-fluid phase change, Euler–Euler and Euler–Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic materials, chemically reacting flow, two-material surface tension, and more. Numerical techniques now represent the current state-of-the-art, including general relaxation characteristic boundary conditions, WENO variants, Strang splitting for stiff sub-grid flow features, and low Mach number treatments. Weak scaling to tens of thousands of GPUs on OLCF Summit and Frontier and LLNL El Capitan see efficiencies within 5\% of ideal to over 90\% of their respective system sizes. Strong scaling results for a 16-times increase in device count see parallel efficiencies over 90\% on OLCF Frontier. Other MFC improvements include ensuring code resilience and correctness with a continuous integration suite, the use of metaprogramming to reduce code length and maintain performance portability, and efficient computational representations for chemical reactions and thermodynamics via code generation with Pyrometheus.}
+}
+
+@unpublished{tchu253,
+  author = {Chu, T. and Wilfong, B. and Koehler, T. and McMullen, R. M. and Bryngelson, S. H.},
+  title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
+  file = {chu-rt-arxiv-25.pdf},
+  year = {2025},
+  doi = {10.48550/arXiv.2505.23578},
+  abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism. }
+}
+
+@inproceedings{wilfong24_DFD,
+  title = {{Hydrodynamic instability and breakup of a liquid-gas interface via vibration}},
+  author = {Wilfong, B. and Chu, T. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
+  booktitle = {74th Annual Meeting of the APS Division of Fluid Dynamics (APS DFD)},
+  year = {2024},
+  address = {Salt Lake City, UT},
+  keywords = {abstract},
+  abstract = {Liquid-gas interfaces break up when subjected to large-amplitude oscillatory accelerations due to hydrodynamic instability. Interface breakup can lead to the injection of the gas phase into the liquid phase below. This gas injection can alter damping properties of fluid-structural systems and depends on the nature of early-stage interface breakup. The breakup that leads to gas injection depends on the configuration details, including the vibration frequency, acceleration amplitude, and character of the initial interface perturbation. We use a 6-equation Baer-Nunziato type diffuse interface model equipped with body force and surface tension effects to simulate early-stage interface breakup and the resulting injection of the gas into the liquid below it. The results indicate a reasonable agreement between simulation growth rates and linear stability analysis, as well as growth-rate independence across random interface perturbations at oscillating accelerations on the order of ten times Earth's gravity with frequencies in the hundreds of hertz. The formation of droplets due to the Rayleigh-Plateau instability in the jetting resulting from the violent acceleration is observed, as well as the entrainment of gas. The volume of ejected droplets and entrained gas are reported over time.}
+}
+
+@inproceedings{wilfong24_WACCPD,
+  title = {{OpenACC} offloading of the {MFC} compressible multiphase flow solver on {AMD} and {NVIDIA GPUs}},
+  author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. A. and Abbott, S. and Budiardja, R. D. and Bryngelson, S. H.},
+  booktitle = {Proceedings of the SC '24 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
+  year = {2024},
+  doi = {10.48550/arXiv.2409.10729},
+  file = {wilfong24-WACCPD.pdf},
+  abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses ’gang vector’ and ’collapse’. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and 95\% are observed when scaling to 50\% of Summit and 95\% of Frontier. Strong scaling efficiencies of 84\% and 81\% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD’s MI250X increases to 92\% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.}
+}
+
+@inproceedings{wilfong24_AIAA,
+    author = {Wilfong, B. A. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
+    title = {Instability of Two-Species Interfaces via Vibration},
+    booktitle = {AIAA AVIATION FORUM AND ASCEND 2024},
+    file = {wilfong24-AIAA.pdf},
+    year = {2024},
+    chapter = {},
+    pages = {},
+    doi = {10.2514/6.2024-4480},
+    abstract = { Vibrating liquid–gas interfaces can break up due to hydrodynamic instability, resulting in gas injection into the liquid below it. The bubble injection phenomena can alter fluid-structural properties of mechanical assemblies and modify fuel composition. The primary Bjerknes force describes the seemingly counter-intuitive phenomenon that follows: gas bubbles sinking against buoyancy forces. The interface breakup that initializes the injection phenomenon is poorly understood and, as we show, depends on multiple problem parameters, including vibration frequency. This work uses an augmented 6-equation diffuse interface model with body forces and surface tension to simulate the initial breakup process. We show that a liquid–gas interface can inject a lighter gas into a heavier liquid, and that this process depends on parameters like the vibration frequency, vibration magnitude, and initial perturbation wavelength.},
+}
+
+@inproceedings{wilfong24_ICNMMF,
+  author    = {Wilfong, B. and Radhakrishnan, A. and Bryngelson, S. H.},
+  title     = {{Multiphase flow numerics: Perspectives from exascale simulation}},
+  booktitle = {5th International Conference on Numerical Methods for Multiphase Flow (ICNMMF)},
+  file = {wilfong24-ICNMMF.pdf},
+  year      = {2024},
+  keywords = {abstract},
+  address   = {Reykjavik, Iceland},
+}
+
+@article{radhakrishnan24_CPC,
+  author = {Radhakrishnan, A. and {Le Berre}, H. and Wilfong, B. and Spratt, J.-S. and {Rodriguez Jr.}, M. and Colonius, T. and Bryngelson, S. H.},
+  title = {Method for portable, scalable, and performant {GPU}-accelerated simulation of multiphase compressible flow},
+  file = {radhakrishnan-CPC-24.pdf},
+  year = {2024},
+  volume = {302},
+  doi = {10.1016/j.cpc.2024.109238},
+  journal = {Computer Physics Communications},
+  pages = {109238},
+  abstract = {Multiphase compressible flows are often characterized by a broad range of space and time scales, entailing large grids and small time steps. Simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for many finite-volume and -difference methods, damping speedups. Even when realized, GPU-based kernels lead to more intrusive communication and I/O times owing to lower computation costs. We present a strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for directive-based offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access realized via CUDA-aware MPI and GPUDirect reduces halo-exchange communication time. We implement this approach in the open-source solver MFC [1]. Metaprogramming results in an 8-times speedup of the most expensive kernels compared to a statically compiled program, reaching 46\% of peak FLOPs on modern NVIDIA GPUs and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single NVIDIA A100 GPU is 7-times faster compared to an Intel Xeon Cascade Lake (6248) CPU die, or about 300-times faster compared to a single such CPU core. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on OLCF Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure the negligible contribution of data transfers (<1\% of the wall time for a typical, large simulation). Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.},
+}
+
