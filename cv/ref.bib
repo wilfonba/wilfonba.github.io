@@ -1,20 +1,12 @@
-@unpublished{tchu253,
-  author = {Chu, T. and Wilfong, B. and Koehler, T. and McMullen, R. M. and Bryngelson, S H.},
-  title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
-  file = {chu-rt-arxiv-25.pdf},
-  year = {2025},
-  doi = {10.48550/arXiv.2505.23578},
-  abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism. }
-}
-
 @unpublished{wilfong253,
-  author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. and Tselepidis, N. and Dorschner, B. and Budiardja, R. and Cornille, B. and Abbott, S. and {*}Schäfer, F. and {*}Bryngelson, S. H.},
-  title = {Simulating many-engine spacecraft: {E}xceeding 100 trillion grid points via information geometric regularization and the MFC flow solver},
-  note = {{*}Equal contribution},
+  author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. and Vickers, D. J. and Prathi, T. and Tselepidis, N. and Dorschner, B. and Budiardja, R. and Cornille, B. and Abbott, S. and {*}Schäfer, F. and {*}Bryngelson, S. H.},
+  title = {Simulating many-engine spacecraft: {E}xceeding 1 quadrillion degrees of freedom via information geometric regularization},
+  note = {arXiv:2505.07392, {*}Equal contribution},
   file = {wilfong-arxiv-25-2.pdf},
+  arxiv = {arXiv.2505.07392},
   year = {2025},
   doi = {10.48550/arXiv.2505.07392},
-  abstract = {This work proposes a method and optimized implementation for exascale simulations of high-speed compressible fluid flows, enabling the simulation of multi-engine rocket craft at an unprecedented scale. We significantly improve upon the state-of-the-art in terms of computational cost and memory footprint through a carefully crafted implementation of the recently proposed information geometric regularization, which eliminates the need for numerical shock capturing. Unified addressing on tightly coupled CPU-GPU platforms increases the total problem size with negligible performance hit. Despite linear stencil algorithms being memory-bound, we achieve wall clock times that are four times faster than optimized baseline numerics. This enables the execution of CFD simulations at more than 100 trillion grid points, surpassing the largest state-of-the-art publicly available simulations by an order of magnitude. Ideal weak scaling is demonstrated on OLCF Frontier and CSCS Alps using the full system, entailing 37.8K AMD MI250X GPUs (Frontier) or 9.2K NVIDIA GH200 superchips (Alps).}
+  abstract = {We present an optimized implementation of the recently proposed information geometric regularization (IGR) for unprecedented scale simulation of compressible fluid flows applied to multi-engine spacecraft boosters. We improve upon state-ofthe-art computational fluid dynamics (CFD) techniques along computational cost, memory footprint, and energy-to-solution metrics. Unified memory on coupled CPU–GPU or APU platforms increases problem size with negligible overhead. Mixed half/singleprecision storage and computation on well-conditioned numerics is used. We simulate flow at 200 trillion grid points and 1 quadrillion degrees of freedom, exceeding the current record by a factor of 20. A factor of 4 wall-time speedup is achieved over optimized baselines. Ideal weak scaling is seen on OLCF Frontier, LLNL El Capitan, and CSCS Alps using the full systems. Strong scaling is near ideal at extreme conditions, including 80\% efficiency on CSCS Alps with an 8 node baseline and stretching to the full system.}
 }
 
 @unpublished{wilfong252,
@@ -25,6 +17,15 @@
   file = {wilfong-arxiv-25.pdf},
   year = {2025},
   abstract = {Many problems of interest in engineering, medicine, and the fundamental sciences rely on high-fidelity flow simulation, making performant computational fluid dynamics solvers a mainstay of the open-source software community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021)) made MFC 3.0 a published, documented, and open-source source solver with numerous physical features, numerical methods, and scalable infrastructure. MFC 5.0 is a marked update to MFC 3.0, including a broad set of well-established and novel physical models and numerical methods and the introduction of GPU and APU (or superchip) acceleration. We exhibit state-of-the-art performance and ideal scaling on the first two exascale supercomputers, OLCF Frontier and LLNL El Capitan. Combined with MFC’s single-GPU/APU performance, MFC achieves exascale computation in practice. With these capabilities, MFC has evolved into a tool for conducting simulations that many engineering challenge problems hinge upon. New physical features include the immersed boundary method, N-fluid phase change, Euler–Euler and Euler–Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic materials, chemically reacting flow, two-material surface tension, and more. Numerical techniques now represent the current state-of-the-art, including general relaxation characteristic boundary conditions, WENO variants, Strang splitting for stiff sub-grid flow features, and low Mach number treatments. Weak scaling to tens of thousands of GPUs on OLCF Summit and Frontier and LLNL El Capitan see efficiencies within 5\% of ideal to over 90\% of their respective system sizes. Strong scaling results for a 16-times increase in device count see parallel efficiencies over 90\% on OLCF Frontier. Other MFC improvements include ensuring code resilience and correctness with a continuous integration suite, the use of metaprogramming to reduce code length and maintain performance portability, and efficient computational representations for chemical reactions and thermodynamics via code generation with Pyrometheus.}
+}
+
+@unpublished{tchu253,
+  author = {Chu, T. and Wilfong, B. and Koehler, T. and McMullen, R. M. and Bryngelson, S. H.},
+  title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
+  file = {chu-rt-arxiv-25.pdf},
+  year = {2025},
+  doi = {10.48550/arXiv.2505.23578},
+  abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism. }
 }
 
 @inproceedings{wilfong24_DFD,

@@ -46,7 +46,7 @@
       {{hash=BSH}{%
          family={Bryngelson},
          familyi={B\bibinitperiod},
-         given={S\bibnamedelima H.},
+         given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
@@ -248,7 +248,7 @@
   \endentry
 
   \entry{wilfong253}{unpublished}{}
-    \name{author}{10}{}{%
+    \name{author}{12}{}{%
       {{hash=WB}{%
          family={Wilfong},
          familyi={W\bibinitperiod},
@@ -266,6 +266,18 @@
          familyi={L\bibinitperiod},
          given={H.},
          giveni={H\bibinitperiod},
+      }}%
+      {{hash=VDJ}{%
+         family={Vickers},
+         familyi={V\bibinitperiod},
+         given={D.\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Prathi},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=TN}{%
          family={Tselepidis},
@@ -310,8 +322,8 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{WBRALHTNDBBRCBASSFBSH1}
-    \strng{fullhash}{WBRALHTNDBBRCBASSFBSH1}
+    \strng{namehash}{WBRALHVDJPTTNDBBRCBASSFBSH1}
+    \strng{fullhash}{WBRALHVDJPTTNDBBRCBASSFBSH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2025}
@@ -319,28 +331,27 @@
     \field{sortinit}{7}
     \field{sortinithash}{7}
     \field{abstract}{%
-    This work proposes a method and optimized implementation for exascale
-  simulations of high-speed compressible fluid flows, enabling the simulation
-  of multi-engine rocket craft at an unprecedented scale. We significantly
-  improve upon the state-of-the-art in terms of computational cost and memory
-  footprint through a carefully crafted implementation of the recently proposed
-  information geometric regularization, which eliminates the need for numerical
-  shock capturing. Unified addressing on tightly coupled CPU-GPU platforms
-  increases the total problem size with negligible performance hit. Despite
-  linear stencil algorithms being memory-bound, we achieve wall clock times
-  that are four times faster than optimized baseline numerics. This enables the
-  execution of CFD simulations at more than 100 trillion grid points,
-  surpassing the largest state-of-the-art publicly available simulations by an
-  order of magnitude. Ideal weak scaling is demonstrated on OLCF Frontier and
-  CSCS Alps using the full system, entailing 37.8K AMD MI250X GPUs (Frontier)
-  or 9.2K NVIDIA GH200 superchips (Alps).%
+    We present an optimized implementation of the recently proposed information
+  geometric regularization (IGR) for unprecedented scale simulation of
+  compressible fluid flows applied to multi-engine spacecraft boosters. We
+  improve upon state-ofthe-art computational fluid dynamics (CFD) techniques
+  along computational cost, memory footprint, and energy-to-solution metrics.
+  Unified memory on coupled CPU–GPU or APU platforms increases problem size
+  with negligible overhead. Mixed half/singleprecision storage and computation
+  on well-conditioned numerics is used. We simulate flow at 200 trillion grid
+  points and 1 quadrillion degrees of freedom, exceeding the current record by
+  a factor of 20. A factor of 4 wall-time speedup is achieved over optimized
+  baselines. Ideal weak scaling is seen on OLCF Frontier, LLNL El Capitan, and
+  CSCS Alps using the full systems. Strong scaling is near ideal at extreme
+  conditions, including 80\% efficiency on CSCS Alps with an 8 node baseline
+  and stretching to the full system.%
     }
     \verb{doi}
     \verb 10.48550/arXiv.2505.07392
     \endverb
-    \field{note}{{*}Equal contribution}
-    \field{title}{Simulating many-engine spacecraft: {E}xceeding 100 trillion
-  grid points via information geometric regularization and the MFC flow solver}
+    \field{note}{arXiv:2505.07392, {*}Equal contribution}
+    \field{title}{Simulating many-engine spacecraft: {E}xceeding 1 quadrillion
+  degrees of freedom via information geometric regularization}
     \verb{file}
     \verb wilfong-arxiv-25-2.pdf
     \endverb
