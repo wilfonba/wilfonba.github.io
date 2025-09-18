@@ -28,7 +28,7 @@ ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p
 The inputs are:
 * `-r` is the framerate
 * `-crf` is the quality, lower means better quality
-* `-S` (optional) video resolution in pixes
+* `-S` (optional) video resolution in pixels
 * `-pix_fmt` specifies the pixel format
 </div>
 </div>
