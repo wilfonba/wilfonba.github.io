@@ -358,6 +358,81 @@
     \field{year}{2025}
   \endentry
 
+  \entry{wilfong254}{unpublished}{}
+    \name{author}{6}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LHA}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Prathi},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBRALHAPTASBSH1}
+    \strng{fullhash}{WBRALHAPTASBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Deploying new supercomputers requires testing and evaluation via
+  application codes. Portable, user-friendly tools enable evaluation, and the
+  Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code,
+  addresses this need. MFC is adorned with a toolchain that automates input
+  generation, compilation, batch job submission, regression testing, and
+  benchmarking. The toolchain design enables users to evaluate
+  compiler-hardware combinations for correctness and performance with limited
+  software engineering experience. As with other PDE solvers, wall time per
+  spatially discretized grid point serves as a figure of merit. We present MFC
+  benchmarking results for five generations of NVIDIA GPUs, three generations
+  of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA,
+  AMD, and GNU compilers. These tests have revealed compiler bugs and
+  regressions on recent machines such as Frontier and El Capitan. MFC has
+  benchmarked approximately 50 compute devices and 5 flagship supercomputers.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2509.13575
+    \endverb
+    \field{note}{arXiv:2509.13575}
+    \field{title}{Testing and benchmarking emerging supercomputers via the MFC
+  flow solver}
+    \verb{file}
+    \verb wilfong-arxiv-25-3.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{radhakrishnan24_CPC}{article}{}
     \name{author}{7}{}{%
       {{hash=RA}{%
