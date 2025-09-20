@@ -1,14 +1,3 @@
-@unpublished{wilfong254,
-    author={Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. A. and Prathi, T. and Abbott, S. and Bryngelson, S. H.},
-    title={Testing and benchmarking emerging supercomputers via the MFC flow solver},
-    note = {arXiv:2509.13575},
-    file = {wilfong-arxiv-25-3.pdf},
-    year={2025},
-    arxiv = {arXiv.2509.13575},
-    doi = {10.48550/arXiv.2509.13575},
-    abstract = {Deploying new supercomputers requires testing and evaluation via application codes. Portable, user-friendly tools enable evaluation, and the Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code, addresses this need. MFC is adorned with a toolchain that automates input generation, compilation, batch job submission, regression testing, and benchmarking. The toolchain design enables users to evaluate compiler-hardware combinations for correctness and performance with limited software engineering experience. As with other PDE solvers, wall time per spatially discretized grid point serves as a figure of merit. We present MFC benchmarking results for five generations of NVIDIA GPUs, three generations of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA, AMD, and GNU compilers. These tests have revealed compiler bugs and regressions on recent machines such as Frontier and El Capitan. MFC has benchmarked approximately 50 compute devices and 5 flagship supercomputers.}
-}
-
 @unpublished{wilfong253,
   author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. and Vickers, D. J. and Prathi, T. and Tselepidis, N. and Dorschner, B. and Budiardja, R. and Cornille, B. and Abbott, S. and {*}Schäfer, F. and {*}Bryngelson, S. H.},
   title = {Simulating many-engine spacecraft: {E}xceeding 1 quadrillion degrees of freedom via information geometric regularization},
@@ -39,13 +28,33 @@
   abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism. }
 }
 
+@inproceedings{wilfong25_DFD,
+  title = {{Hydrodynamic instability and breakup of a liquid-gas interface via vibration}},
+  author = {Wilfong, B. and Chu, T. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
+  booktitle = {75th Annual Meeting of the APS Division of Fluid Dynamics (APS DFD)},
+  year = {2025},
+  address = {Houston, TX},
+  keywords = {nonheavy},
+  abstract = {The downward rectified motion of gas in vibrated liquids, caused by compressibility–vibration coupling between bubbles and the surrounding fluid, is a phenomenon observed in experiments. The coalescence of injected gas can lead to the formation of gas-rich regions, which significantly alter the hydrodynamic damping properties of fluid–structure systems. Downward motion occurs when the primary Bjerknes force exceeds the buoyancy force, a condition only met when a bubble descends past a critical "neutral depth." However, experimental observations of bubbles crossing this depth are limited, and the mechanisms enabling this transport remain poorly understood. To address this gap, we present a numerical study using diffuse-interface and Euler–Lagrange models that incorporate radial bubble dynamics and two-way coupling with the liquid phase. The numerical results are validated against analytical predictions for isolated bubbles and then used to quantify bubble trajectories and forces during downward transport. Our findings suggest that vibration-induced liquid surface waves generate bulk fluid motion that drives bubbles past the neutral depth, revealing a mechanism for gas migration in vibrated multiphase systems.},
+}
+
+@inproceedings{wilfong25_HPCTESTS,
+    author={Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. A. and Prathi, T. and Abbott, S. and Bryngelson, S. H.},
+    title={Testing and benchmarking emerging supercomputers via the MFC flow solver},
+    booktitle={Proceedings of the SC '25 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
+    year={2025},
+    file = {wilfong25-HPCTESTS.pdf},
+    doi = {10.48550/arXiv.2509.13575},
+    abstract = {Deploying new supercomputers requires testing and evaluation via application codes. Portable, user-friendly tools enable evaluation, and the Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code, addresses this need. MFC is adorned with a toolchain that automates input generation, compilation, batch job submission, regression testing, and benchmarking. The toolchain design enables users to evaluate compiler-hardware combinations for correctness and performance with limited software engineering experience. As with other PDE solvers, wall time per spatially discretized grid point serves as a figure of merit. We present MFC benchmarking results for five generations of NVIDIA GPUs, three generations of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA, AMD, and GNU compilers. These tests have revealed compiler bugs and regressions on recent machines such as Frontier and El Capitan. MFC has benchmarked approximately 50 compute devices and 5 flagship supercomputers.}
+}
+
 @inproceedings{wilfong24_DFD,
   title = {{Hydrodynamic instability and breakup of a liquid-gas interface via vibration}},
   author = {Wilfong, B. and Chu, T. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
   booktitle = {74th Annual Meeting of the APS Division of Fluid Dynamics (APS DFD)},
   year = {2024},
   address = {Salt Lake City, UT},
-  keywords = {abstract},
+  keywords = {nonheavy},
   abstract = {Liquid-gas interfaces break up when subjected to large-amplitude oscillatory accelerations due to hydrodynamic instability. Interface breakup can lead to the injection of the gas phase into the liquid phase below. This gas injection can alter damping properties of fluid-structural systems and depends on the nature of early-stage interface breakup. The breakup that leads to gas injection depends on the configuration details, including the vibration frequency, acceleration amplitude, and character of the initial interface perturbation. We use a 6-equation Baer-Nunziato type diffuse interface model equipped with body force and surface tension effects to simulate early-stage interface breakup and the resulting injection of the gas into the liquid below it. The results indicate a reasonable agreement between simulation growth rates and linear stability analysis, as well as growth-rate independence across random interface perturbations at oscillating accelerations on the order of ten times Earth's gravity with frequencies in the hundreds of hertz. The formation of droplets due to the Rayleigh-Plateau instability in the jetting resulting from the violent acceleration is observed, as well as the entrainment of gas. The volume of ejected droplets and entrained gas are reported over time.}
 }
 
@@ -54,7 +63,7 @@
   author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. A. and Abbott, S. and Budiardja, R. D. and Bryngelson, S. H.},
   booktitle = {Proceedings of the SC '24 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
   year = {2024},
-  doi = {10.48550/arXiv.2409.10729},
+ doi = {10.1109/SCW63240.2024.00242},
   file = {wilfong24-WACCPD.pdf},
   abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses ’gang vector’ and ’collapse’. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and 95\% are observed when scaling to 50\% of Summit and 95\% of Frontier. Strong scaling efficiencies of 84\% and 81\% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD’s MI250X increases to 92\% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.}
 }
@@ -77,7 +86,7 @@
   booktitle = {5th International Conference on Numerical Methods for Multiphase Flow (ICNMMF)},
   file = {wilfong24-ICNMMF.pdf},
   year      = {2024},
-  keywords = {abstract},
+  keywords = {nonheavy},
   address   = {Reykjavik, Iceland},
 }
 

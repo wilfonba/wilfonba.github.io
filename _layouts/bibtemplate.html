@@ -34,11 +34,7 @@ ol li{
 
 {% endif %}
 {% if entry.type == "inproceedings" %}
-    {% if entry.keywords contains "abstract" %}
-        <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">ABSTRACT</button></center>
-    {% else %}
-        <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
-    {% endif %}
+<center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
 {% endif %}
 {% if entry.type == "report" %}
 <center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">REPORT</button></center>

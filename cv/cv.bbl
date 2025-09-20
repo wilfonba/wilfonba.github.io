@@ -86,6 +86,77 @@
     \field{year}{2025}
   \endentry
 
+  \entry{wilfong25_DFD}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{WBCTMRKTBSH1}
+    \strng{fullhash}{WBCTMRKTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    The downward rectified motion of gas in vibrated liquids, caused by
+  compressibility–vibration coupling between bubbles and the surrounding
+  fluid, is a phenomenon observed in experiments. The coalescence of injected
+  gas can lead to the formation of gas-rich regions, which significantly alter
+  the hydrodynamic damping properties of fluid–structure systems. Downward
+  motion occurs when the primary Bjerknes force exceeds the buoyancy force, a
+  condition only met when a bubble descends past a critical "neutral depth."
+  However, experimental observations of bubbles crossing this depth are
+  limited, and the mechanisms enabling this transport remain poorly understood.
+  To address this gap, we present a numerical study using diffuse-interface and
+  Euler–Lagrange models that incorporate radial bubble dynamics and two-way
+  coupling with the liquid phase. The numerical results are validated against
+  analytical predictions for isolated bubbles and then used to quantify bubble
+  trajectories and forces during downward transport. Our findings suggest that
+  vibration-induced liquid surface waves generate bulk fluid motion that drives
+  bubbles past the neutral depth, revealing a mechanism for gas migration in
+  vibrated multiphase systems.%
+    }
+    \field{booktitle}{75th Annual Meeting of the APS Division of Fluid Dynamics
+  (APS DFD)}
+    \field{title}{{Hydrodynamic instability and breakup of a liquid-gas
+  interface via vibration}}
+    \list{location}{1}{%
+      {Houston, TX}%
+    }
+    \field{year}{2025}
+  \endentry
+
   \entry{wilfong252}{unpublished}{}
     \name{author}{18}{}{%
       {{hash=WB}{%
@@ -358,7 +429,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{wilfong254}{unpublished}{}
+  \entry{wilfong25_HPCTESTS}{inproceedings}{}
     \name{author}{6}{}{%
       {{hash=WB}{%
          family={Wilfong},
@@ -421,14 +492,15 @@
   regressions on recent machines such as Frontier and El Capitan. MFC has
   benchmarked approximately 50 compute devices and 5 flagship supercomputers.%
     }
+    \field{booktitle}{Proceedings of the SC '25 Workshops of The International
+  Conference on High Performance Computing, Network, Storage, and Analysis}
     \verb{doi}
     \verb 10.48550/arXiv.2509.13575
     \endverb
-    \field{note}{arXiv:2509.13575}
     \field{title}{Testing and benchmarking emerging supercomputers via the MFC
   flow solver}
     \verb{file}
-    \verb wilfong-arxiv-25-3.pdf
+    \verb wilfong25-HPCTESTS.pdf
     \endverb
     \field{year}{2025}
   \endentry
@@ -564,7 +636,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{abstract}
+    \keyw{nonheavy}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -624,7 +696,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{abstract}
+    \keyw{nonheavy}
     \strng{namehash}{WBRABSH1}
     \strng{fullhash}{WBRABSH1}
     \field{labelnamesource}{author}
@@ -711,7 +783,7 @@
     \field{booktitle}{Proceedings of the SC '24 Workshops of The International
   Conference on High Performance Computing, Network, Storage, and Analysis}
     \verb{doi}
-    \verb 10.48550/arXiv.2409.10729
+    \verb 10.1109/SCW63240.2024.00242
     \endverb
     \field{title}{{OpenACC} offloading of the {MFC} compressible multiphase
   flow solver on {AMD} and {NVIDIA GPUs}}
