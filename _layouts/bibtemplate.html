@@ -31,7 +31,6 @@ ol li{
 <!-- <div class="col-sm-2 col-xs-2"> -->
 {% if entry.type == "article" %}
 <center><button class="btn btn-success btm-sm Disabled" style="width:100%;border-radius:12px;">ARTICLE</button></center>&nbsp;&nbsp;
-
 {% endif %}
 {% if entry.type == "inproceedings" %}
 <center><button class="btn btn-info btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
@@ -40,7 +39,10 @@ ol li{
 <center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">REPORT</button></center>
 {% endif %}
 {% if entry.type == "unpublished" %}
-<center><button class="btn btn-secondary btm-sm Disabled" style="width:100%;border-radius:12px;">PREPRINT</button></center>
+<center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">PREPRINT</button></center>
+{% endif %}
+{% if entry.type == "misc" %}
+<center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">TALK</button></center>
 {% endif %}
 </div>
 

@@ -86,7 +86,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{wilfong25_DFD}{inproceedings}{}
+  \entry{wilfong25_DFD}{misc}{}
     \name{author}{5}{}{%
       {{hash=WB}{%
          family={Wilfong},
@@ -147,8 +147,8 @@
   bubbles past the neutral depth, revealing a mechanism for gas migration in
   vibrated multiphase systems.%
     }
-    \field{booktitle}{75th Annual Meeting of the APS Division of Fluid Dynamics
-  (APS DFD)}
+    \field{howpublished}{75th Annual Meeting of the APS Division of Fluid
+  Dynamics (APS DFD)}
     \field{title}{{Hydrodynamic instability and breakup of a liquid-gas
   interface via vibration}}
     \list{location}{1}{%
@@ -603,7 +603,7 @@
     \field{year}{2024}
   \endentry
 
-  \entry{wilfong24_DFD}{inproceedings}{}
+  \entry{wilfong24_DFD}{misc}{}
     \name{author}{5}{}{%
       {{hash=WB}{%
          family={Wilfong},
@@ -665,8 +665,8 @@
   observed, as well as the entrainment of gas. The volume of ejected droplets
   and entrained gas are reported over time.%
     }
-    \field{booktitle}{74th Annual Meeting of the APS Division of Fluid Dynamics
-  (APS DFD)}
+    \field{howpublished}{74th Annual Meeting of the APS Division of Fluid
+  Dynamics (APS DFD)}
     \field{title}{{Hydrodynamic instability and breakup of a liquid-gas
   interface via vibration}}
     \list{location}{1}{%
@@ -675,7 +675,7 @@
     \field{year}{2024}
   \endentry
 
-  \entry{wilfong24_ICNMMF}{inproceedings}{}
+  \entry{wilfong24_ICNMMF}{misc}{}
     \name{author}{3}{}{%
       {{hash=WB}{%
          family={Wilfong},
@@ -705,7 +705,7 @@
     \field{labeldatesource}{}
     \field{sortinit}{7}
     \field{sortinithash}{7}
-    \field{booktitle}{5th International Conference on Numerical Methods for
+    \field{howpublished}{5th International Conference on Numerical Methods for
   Multiphase Flow (ICNMMF)}
     \field{title}{{Multiphase flow numerics: Perspectives from exascale
   simulation}}
