@@ -33,13 +33,15 @@ Some of these figures are strongly based on those created by Spencer H. Bryngels
 <div class="jumbotron">
 <!--<div class="col-md-12 col-sm-12">-->
 <!--#### Gallery-->
-<ul style="padding:0px">
-<div class="container" style="padding:0px">
+<ul style="padding:0; list-style:none; margin:0;">
+<div class="container" style="padding:0;">
     {% for image in page.images %}
-        <figure>
-        <a href="{{site.url}}{{site.baseurl}}/images/tikz/zips/{{ image.name }}.zip" download style="margin:5pt">
-          <img src="{{site.url}}{{site.baseurl}}/images/tikz/figs/{{ image.name }}.svg" alt="{{image.name}}" width="100%" style="border-radius:10px">
-        </a>
+        <figure style="margin:3px; background:white; padding:10px; border-radius:10px;">
+            <a href="{{site.url}}{{site.baseurl}}/images/tikz/zips/{{ image.name }}.zip" download>
+                <img src="{{site.url}}{{site.baseurl}}/images/tikz/figs/{{ image.name }}.svg"
+                     alt="{{image.name}}"
+                     style="width:100%; height:auto;border-radius:0px">
+            </a>
         </figure>
     {% endfor %}
 </div>
