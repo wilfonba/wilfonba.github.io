@@ -4,6 +4,7 @@ layout: page
 sitemap: false
 permalink: /tikz%20examples/
 images:
+    - name: flowchart
     - name: torus
     - name: twoPhase
     - name: C2CSchematic
