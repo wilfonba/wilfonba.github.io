@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  20 SEP 2025 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  29 SEP 2025 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,45 +696,51 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
 
-(./cv.bbl)
+(./cv.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'tchu253':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 61.
+nput line 62.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 62.
+nput line 63.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 64.
+ input line 65.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 64.
+n input line 65.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--75
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
 
  []
 
 
-Overfull \hbox (20.80806pt too wide) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
+
+ []
+
+
+Overfull \hbox (20.80806pt too wide) in paragraph at lines 101--102
 []\OT1/cmr/m/n/10 (2025) ACM Gor-don Bell Prize Fi-nal-ist (\OT1/cmr/m/it/10 Si
 m-u-lat-ing many-engine space-craft: Ex-ceed-ing 1 quadrillion
  []
@@ -743,14 +749,14 @@ m-u-lat-ing many-engine space-craft: Ex-ceed-ing 1 quadrillion
 
 ]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 125.
+nput line 126.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 135.
+(Font)              <7> on input line 136.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 135.
+(Font)              <5> on input line 136.
  [2] 
 AED: lastpage setting LastPage
 [3] (./cv.aux)
@@ -762,8 +768,8 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  21364 strings out of 478268
- 389391 string characters out of 5846347
- 1067862 words of memory out of 5000000
+ 389390 string characters out of 5846347
+ 1066861 words of memory out of 5000000
  39321 multiletter control sequences out of 15000+600000
  473778 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -783,10 +789,10 @@ e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (3 pages, 163589 bytes).
+Output written on cv.pdf (3 pages, 164123 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

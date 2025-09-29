@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
-  \entry{tchu253}{unpublished}{}
+  \entry{tchu253}{article}{}
     \name{author}{5}{}{%
       {{hash=CT}{%
          family={Chu},
@@ -50,6 +50,9 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
     \strng{namehash}{CTWBKTMRMBSH1}
     \strng{fullhash}{CTWBKTMRMBSH1}
     \field{labelnamesource}{author}
@@ -76,14 +79,19 @@
   suppress Faraday responses via a nonlinear mechanism.%
     }
     \verb{doi}
-    \verb 10.48550/arXiv.2505.23578
+    \verb 10.1103/r9b3-psg4
     \endverb
+    \field{issue}{9}
+    \field{pages}{093904}
     \field{title}{Competing mechanisms at vibrated interfaces of
-  density-stratified fluids}
+  density-contrast fluids}
+    \field{volume}{10}
     \verb{file}
-    \verb chu-rt-arxiv-25.pdf
+    \verb chu-rt-25.pdf
     \endverb
+    \field{journaltitle}{Physical Review Fluids}
     \field{year}{2025}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{wilfong25_DFD}{misc}{}
@@ -119,7 +127,6 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{nonheavy}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -636,7 +643,6 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{nonheavy}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -696,7 +702,6 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{nonheavy}
     \strng{namehash}{WBRABSH1}
     \strng{fullhash}{WBRABSH1}
     \field{labelnamesource}{author}
