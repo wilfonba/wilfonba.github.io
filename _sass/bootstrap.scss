@@ -10832,6 +10832,11 @@ legend {
   border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
+.news-date {
+  color: var(--danger);   /* pick any color */
+  font-weight: bold; /* optional */
+}
+
 .list-group-item-action:hover {
   background-color: #1c1e22;
 }
