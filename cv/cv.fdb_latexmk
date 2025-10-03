@@ -1,15 +1,16 @@
 # Fdb version 3
-["bibtex cv"] 1759324087 "cv.aux" "cv.bbl" "cv" 1759324087
+["bibtex cv"] 1759498555 "cv.aux" "cv.bbl" "cv" 1759498556
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1643926307 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
-  "cv-blx.bib" 1759324087 344 db6c3e578a80b2e470572bcb3f48ea35 "pdflatex"
-  "cv.aux" 1759324087 4262 f2d10e79669b5e3eedfbd08635c3875b "pdflatex"
+  "cv-blx.bib" 1759498556 344 db6c3e578a80b2e470572bcb3f48ea35 "pdflatex"
+  "cv.aux" 1759498556 4262 f2d10e79669b5e3eedfbd08635c3875b "pdflatex"
   "ref.bib" 1759175297 16274 fead622ca4bf77d2c071e01535fba3bb ""
   (generated)
   "cv.bbl"
   "cv.blg"
-["pdflatex"] 1759324087 "cv.tex" "cv.pdf" "cv" 1759324087
+["pdflatex"] 1759498555 "cv.tex" "cv.pdf" "cv" 1759498556
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1622837620 2612 19f012b712f5c18ad95793e92d23e578 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -23,6 +24,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm" 1622837620 1380 b39147d6e404af58d6e49fb6d0a0daae ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands1.tfm" 1622837620 1144 556d9b2e97082c74379613910140469e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm" 1622837620 1328 8843c76048ec1e1c4b2d1007558b8833 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
@@ -86,6 +88,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def" 1622837620 107888 1633cdc16ba7668f2631413ef15f922e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty" 1622837620 7431 6f96168cb69798b45fb68c05af9b56b0 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1622837620 1206 5d16718388a4c505809b7bb39e75cfc2 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd" 1622837620 1206 6b1d582991ac70a7d90bc212e1d31192 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd" 1622837620 980 63bdcd9aaa873e49a43d0813853f277e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd" 1622837620 980 23a30a2f0eed143d100759013d55c31b ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd" 1622837620 980 7f1390dfa6c2d9762877f2f635189756 ""
@@ -124,11 +127,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1661367897 2826442 06dac9906e80e99675a79ff78f0d8916 ""
   "/usr/local/texlive/2022/texmf.cnf" 1713793338 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1759324087 4262 f2d10e79669b5e3eedfbd08635c3875b "pdflatex"
-  "cv.bbl" 1759324087 31221 6eaf98930c387bfd3ca2be6de7a57056 "bibtex cv"
-  "cv.out" 1759324087 1664 299a7a02c92d04fc9c138adbcf91a5c0 "pdflatex"
-  "cv.run.xml" 1759324087 2503 4ed002ac6e4a8915a477ea2b47b7b640 "pdflatex"
-  "cv.tex" 1759324084 7555 838a12ede82f360948cc5dd34ddc3155 ""
+  "cv.aux" 1759498556 4262 f2d10e79669b5e3eedfbd08635c3875b "pdflatex"
+  "cv.bbl" 1759498555 31221 6eaf98930c387bfd3ca2be6de7a57056 "bibtex cv"
+  "cv.out" 1759498556 1664 299a7a02c92d04fc9c138adbcf91a5c0 "pdflatex"
+  "cv.run.xml" 1759498556 2503 4ed002ac6e4a8915a477ea2b47b7b640 "pdflatex"
+  "cv.tex" 1759498552 7643 357ae815b6b8f8c697ed131d3f03fb2c ""
   (generated)
   "cv-blx.bib"
   "cv.aux"
