@@ -1,11 +1,9 @@
 ---
 title: "About"
-layout: gridlay
+layout: page
 sitemap: false
 permalink: /about/
 ---
-
-## About
 
 {% for member in site.data.pi %}
 
@@ -21,14 +19,9 @@ permalink: /about/
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
-
-  <!--<ul style="overflow: hidden">-->
-    <!--{% for education in member.education %}-->
-      <!--<li>{{ education | replace: "-","&#8211;" }}</li>-->
-    <!--{% endfor %}-->
-  <!--</ul>-->
-
+  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a>
+   {% if member.orcid %} <a href="{{ member.orcid  }}" target="_blank"><i class="ai ai-orcid-square ai-3x"></i></a> {% endif %}
+{% endif %}
 </div>
 </div>
 </div>

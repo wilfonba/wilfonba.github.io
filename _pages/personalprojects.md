@@ -1,6 +1,6 @@
 ---
 title: "Personal Projects"
-layout: gridlay
+layout: page
 sitemap: false
 permalink: /personal%20projects/
 ---
@@ -30,8 +30,6 @@ iframe {
   aspect-ratio: 16 / 9;
 }
 </style>
-
-## Personal Projects
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">

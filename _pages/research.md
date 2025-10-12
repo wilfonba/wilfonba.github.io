@@ -1,6 +1,6 @@
 ---
 title: "Research"
-layout: gridlay
+layout: page
 sitemap: false
 permalink: /research/
 ---
@@ -30,8 +30,6 @@ iframe {
   aspect-ratio: 16 / 9;
 }
 </style>
-
-## Research
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">

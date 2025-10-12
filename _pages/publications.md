@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: gridlay
+layout: page
 sitemap: false
 permalink: /publications/
 years: [2024]
@@ -16,13 +16,13 @@ years: [2024]
 }
 </style>
 
-### Archival Publications
 <div class="jumbotron">
+### Archival Publications
 {% bibliography --query @unpublished %}
 {% bibliography --query @article,@inproceedings,@report %}
 </div>
 
-### Conference Talks
 <div class="jumbotron">
+### Conference Abstracts
 {% bibliography --query @misc %}
 </div>
