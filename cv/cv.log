@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  23 OCT 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  10 NOV 2025 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,23 +765,23 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 128.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-) [2] 
+) [2] [3] 
 AED: lastpage setting LastPage
-[3] (./cv.aux)
+[4] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 299A7A02C92D04FC9C138ADBCF91A5C0;1664.
+(rerunfilecheck)             Checksum: 7190225AC9A84493A5449351CF675717;1684.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21382 strings out of 478268
- 389951 string characters out of 5846347
- 1066861 words of memory out of 5000000
- 39335 multiletter control sequences out of 15000+600000
+ 21397 strings out of 478268
+ 390306 string characters out of 5846347
+ 1067059 words of memory out of 5000000
+ 39344 multiletter control sequences out of 15000+600000
  474040 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,76p,1840b,1277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,76p,1840b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc
@@ -799,10 +799,10 @@ e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
 ublic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (3 pages, 185241 bytes).
+Output written on cv.pdf (4 pages, 187501 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,7 +22,3 @@ years: [2024]
 {% bibliography --query @article,@inproceedings,@report %}
 </div>
 
-<div class="jumbotron">
-### Conference Abstracts
-{% bibliography --query @misc %}
-</div>
