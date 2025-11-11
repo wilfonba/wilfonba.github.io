@@ -20,7 +20,7 @@
   \entry{bryngelson25_UNCGPDE}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=BSH}{%
-         family={Bryngelson},
+         family={Bryngelson*},
          familyi={B\bibinitperiod},
          given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
@@ -38,6 +38,7 @@
          giveni={B\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{BSHRAWB1}
     \strng{fullhash}{BSHRAWB1}
     \field{labelnamesource}{author}
@@ -58,7 +59,7 @@
   \entry{bryngelson25_USNCCM}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=BSH}{%
-         family={Bryngelson},
+         family={Bryngelson*},
          familyi={B\bibinitperiod},
          given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
@@ -76,6 +77,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{BSHWBRA1}
     \strng{fullhash}{BSHWBRA1}
     \field{labelnamesource}{author}
@@ -97,7 +99,7 @@
   \entry{bryngelson25_DFD}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=BSH}{%
-         family={Bryngelson},
+         family={Bryngelson*},
          familyi={B\bibinitperiod},
          given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
@@ -121,6 +123,7 @@
          giveni={S\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{BSHWBRAFS1}
     \strng{fullhash}{BSHWBRAFS1}
     \field{labelnamesource}{author}
@@ -152,7 +155,7 @@
   \entry{chu25_DFD}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=CT}{%
-         family={Chu},
+         family={Chu*},
          familyi={C\bibinitperiod},
          given={T.},
          giveni={T\bibinitperiod},
@@ -182,6 +185,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{CTWBKTMRBSH1}
     \strng{fullhash}{CTWBKTMRBSH1}
     \field{labelnamesource}{author}
@@ -220,7 +224,7 @@
   \entry{tchu253}{article}{}
     \name{author}{5}{}{%
       {{hash=CT}{%
-         family={Chu},
+         family={Chu*},
          familyi={C\bibinitperiod},
          given={T.},
          giveni={T\bibinitperiod},
@@ -328,12 +332,13 @@
          giveni={S\bibinitperiod},
       }}%
       {{hash=BSH}{%
-         family={Bryngelson},
+         family={Bryngelson*},
          familyi={B\bibinitperiod},
          given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{RALBHWBBRASBSH1}
     \strng{fullhash}{RALBHWBBRASBSH1}
     \field{labelnamesource}{author}
@@ -369,7 +374,7 @@
   \entry{wilfong25_DFD}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=WB}{%
-         family={Wilfong},
+         family={Wilfong*},
          familyi={W\bibinitperiod},
          given={B.},
          giveni={B\bibinitperiod},
@@ -399,6 +404,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -882,7 +888,7 @@
   \entry{wilfong24_DFD}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=WB}{%
-         family={Wilfong},
+         family={Wilfong*},
          familyi={W\bibinitperiod},
          given={B.},
          giveni={B\bibinitperiod},
@@ -912,6 +918,7 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{WBCTMRKTBSH1}
     \strng{fullhash}{WBCTMRKTBSH1}
     \field{labelnamesource}{author}
@@ -962,12 +969,13 @@
          giveni={A\bibinitperiod},
       }}%
       {{hash=BSH}{%
-         family={Bryngelson},
+         family={Bryngelson*},
          familyi={B\bibinitperiod},
          given={S.\bibnamedelima H.},
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
+    \keyw{nonheavy}
     \strng{namehash}{WBRABSH1}
     \strng{fullhash}{WBRABSH1}
     \field{labelnamesource}{author}
