@@ -1,3 +1,6 @@
+- date: November 14, 2025
+  headline: "I'll be at SC25 in St. Louis next week! Spencer Bryngelson and Florian Schäfer will be giving our <a href='https://sc25.conference-program.com/presentation/?id=gb101&sess=sess575' target='_blank'>Gordon Bell Prize finalist talk</a> on Tuesday, 11/18, from 10:52-11:15 CST. Later in the week I'll be <a href='https://sc25.conference-program.com/presentation/?id=ws_hpct101&sess=sess232' target='_blank'>presenting</a> my <a href='https://arxiv.org/abs/2509.13575' target='_blank'>paper</a> on benchmarking supercomputers with MFC on Friday, 11/21, From 10:30-10:55 am CST and participating in a <a href='https://sc25.conference-program.com/presentation/?id=miscp115&sess=sess232' target='_blank'>panel discussion</a> as part of the <a href='https://sc25.conference-program.com/session/?sess=sess232' target='_blank'>HPCTESTS25</a> workshop."
+
 - date: October 8, 2025
   headline: "I gave a <a href='https://hotcse.gatech.edu/2025/Ben-Wilfong/index.html' target='_blank'> HotCSE seminar </a> today on the work in our <a href='https://arxiv.org/abs/2505.07392' target='_blank'> preprint </a> about doing a CFD simulation with <i>1 quadrillion</i> degrees of freedom. You can see the slides <a href='/papers/HotCSE_25.pdf' target='_blank'> here</a>."
 
