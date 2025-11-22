@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>FFMPEG Cheat Sheet - Ben Wilfong</title>
+  <meta name="description" content="Personal webpage of Ben Wilfong">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/ffmpeg%20cheat%20sheet/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9NTVQC6KPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9NTVQC6KPX');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KBZDTG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark justify-content-left">
+    <a class="navbar-brand" href="/">
+        <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+        <!--Ben Wilfong-->
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">HOME</a>
+                </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">ABOUT</a>
+                    </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/publications">PUBLICATIONS</a>
+                    </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/research">RESEARCH</a>
+                    </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/personal projects">PERSONAL PROJECTS</a>
+                    </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ffmpeg cheat sheet">FFMPEG CHEAT SHEET</a>
+                    </li> 
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tikz examples">TIKZ EXAMPLES</a>
+                    </li> 
+                
+                <!-- <a class="nav-link" href="/GSCS22">GSCS22</a> -->
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">FFMPEG Cheat Sheet</h1>
+  </header>
+
+  <div class="post-content">
+    <div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="create-a-video-from-a-sequence-of-png-images">Create a video from a sequence of PNG images</h4>
+    <p>The following command can be used to make a .mp4 video from a series of images padded with zeros (<code class="language-plaintext highlighter-rouge">pic.00001.png</code>, <code class="language-plaintext highlighter-rouge">pic.0002.png</code>, …).</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+</code></pre></div>    </div>
+
+    <p>The inputs are:</p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">-r</code> is the framerate</li>
+      <li><code class="language-plaintext highlighter-rouge">-crf</code> is the quality, lower means better quality</li>
+      <li><code class="language-plaintext highlighter-rouge">-S</code> (optional) video resolution in pixels</li>
+      <li><code class="language-plaintext highlighter-rouge">-pix_fmt</code> specifies the pixel format</li>
+    </ul>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="playing-one-video-after-another">Playing one video after another</h4>
+    <p>The following command can be used to play a sequence of videos with the same width and height.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -f concat -i videos.txt -c copy joinedVideo.mp4
+</code></pre></div>    </div>
+    <p>The file <code class="language-plaintext highlighter-rouge">videos.txt</code> contains an ordered list of videos with the following syntax:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file '/directory/Video1.mp4'
+file '/directory/Video2.mp4'
+</code></pre></div>    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="stacking-videos">Stacking videos</h4>
+    <p>The following command can be used to vertically stack two videos with the same width.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -i 1.mp4 -i 2.mp4 -filter_complex vstack out.mp4
+</code></pre></div>    </div>
+    <p>The following command can be used to horizontally stack two videos with the same height.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -i 1.mp4 -i 2.mp4 -filter_complex hstack out.mp4
+</code></pre></div>    </div>
+    <p><code class="language-plaintext highlighter-rouge">N</code> videos can be stacked using the following.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex hstack=N out.mp4
+</code></pre></div>    </div>
+    <p>A 2x2 array of compatible videos can be created using</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -i input0 -i input1 -i input2 -i input3 -filter_complex "[0:v][1:v][2:v][3:v]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" -map "[v]" output.mp4
+</code></pre></div>    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="dealing-with-an-odd-number-of-pixels">Dealing with an odd number of pixels</h4>
+    <p>Adding <code class="language-plaintext highlighter-rouge">-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"</code> to your FFMPEG command as shown below allows you to create a video from PNGs that are not an even number of pixels in height and/or width.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -crf 25  -pix_fmt yuv420p test.mp4
+</code></pre></div>    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="adding-an-mp3-to-a-video">Adding an .mp3 to a video</h4>
+    <p>The following command can be used to add sound to video.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -r 30 -f image2 -i pic.%04d.png -i MP3FILE.mp3 -vcodec libx264 -b 4M -vpre normal -acodec copy test.mp4
+</code></pre></div>    </div>
+    <p>The inputs are:</p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">-i MP3FILE.mp3</code> is the name of the audio file</li>
+      <li><code class="language-plaintext highlighter-rouge">-acodec copy</code> copies the audio from the input to the output stream</li>
+    </ul>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="converting-a-video-to-mp4">Converting a video to .mp4</h4>
+    <p>The following command can be used to convert a video to .mp4.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg  -i INPUT.avi -vcodec libx264 -crf 25 OUTPUT.mp4
+</code></pre></div>    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4 id="cropping-a-video">Cropping a video</h4>
+    <p>The following command can be used to crop a video</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg -i input.mp4 -vf "crop=w:h:x:y" output.mp4
+</code></pre></div>    </div>
+    <p>where the inputs are</p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">-vf</code> indicates the usage of a video filter</li>
+      <li><code class="language-plaintext highlighter-rouge">crop</code> is the name of the filter</li>
+      <li><code class="language-plaintext highlighter-rouge">w:h</code> is the width and height of the output video&lt;</li>
+      <li><code class="language-plaintext highlighter-rouge">x:y</code> is the coordinate from which the video will be</li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>About</h5>
+            <p>Ben Wilfong<br/> Graduate Research Assistant<br/> Georgia Institute of Technology
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contact</h5>
+            <p><a href="mailto:bwilfong3@gatech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Ben via email</a> <br/> <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Coordinates</h5>
+            <p>Georgia Institute Institute of Technology<br/> 311 Ferst Drive<br/> Atlanta, GA 30332
+</p>
+		</div>
+	  </div>
+      <center><p>Last updated on 11-22-2025 &emsp; &copy 2025 Ben Wilfong</p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
