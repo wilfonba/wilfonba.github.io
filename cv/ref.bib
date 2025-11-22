@@ -1,12 +1,12 @@
-@unpublished{wilfong253,
+@inproceedings{wilfong253,
   author = {Wilfong, B. and Radhakrishnan, A. and {Le Berre}, H. and Vickers, D. J. and Prathi, T. and Tselepidis, N. and Dorschner, B. and Budiardja, R. and Cornille, B. and Abbott, S. and {*}Schäfer, F. and {*}Bryngelson, S. H.},
   title = {Simulating many-engine spacecraft: {E}xceeding 1 quadrillion degrees of freedom via information geometric regularization},
-  note = {arXiv:2505.07392, {*}Equal contribution},
-  file = {wilfong-arxiv-25-2.pdf},
-  arxiv = {arXiv.2505.07392},
+  note = {{*}Equal contribution},
+  file = {wilfong-GB.pdf},
   year = {2025},
-  doi = {10.48550/arXiv.2505.07392},
-  abstract = {We present an optimized implementation of the recently proposed information geometric regularization (IGR) for unprecedented scale simulation of compressible fluid flows applied to multi-engine spacecraft boosters. We improve upon state-ofthe-art computational fluid dynamics (CFD) techniques along computational cost, memory footprint, and energy-to-solution metrics. Unified memory on coupled CPU–GPU or APU platforms increases problem size with negligible overhead. Mixed half/singleprecision storage and computation on well-conditioned numerics is used. We simulate flow at 200 trillion grid points and 1 quadrillion degrees of freedom, exceeding the current record by a factor of 20. A factor of 4 wall-time speedup is achieved over optimized baselines. Ideal weak scaling is seen on OLCF Frontier, LLNL El Capitan, and CSCS Alps using the full systems. Strong scaling is near ideal at extreme conditions, including 80\% efficiency on CSCS Alps with an 8 node baseline and stretching to the full system.}
+  doi = {10.1145/3712285.3771783},
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  abstract = {We present an optimized implementation of the recently proposed information geometric regularization (IGR) for unprecedented scale simulation of compressible fluid flows applied to multi-engine spacecraft boosters. We improve upon state-of-the-art computational fluid dynamics (CFD) techniques in terms of computational cost, memory footprint, and energy-to-solution metrics. Unified memory on coupled CPU–GPU or APU platforms increases problem size with negligible overhead. Mixed half/single-precision storage and computation are used on well-conditioned numerics. We simulate flow at 200&nbsp;trillion grid points and 1&nbsp;quadrillion degrees of freedom, exceeding the current record by a factor of 20. A factor of 4 wall-time speedup is achieved over optimized baselines. Ideal weak scaling is observed on OLCF Frontier, LLNL El&nbsp;Capitan, and CSCS Alps using the full systems. Strong scaling is near ideal at extreme conditions, including 80\% efficiency on CSCS&nbsp;Alps with an 8&nbsp;node baseline and stretching to the full system.},
 }
 
 @unpublished{wilfong252,
@@ -21,7 +21,7 @@
 
 @article{tchu253,
   title = {Competing mechanisms at vibrated interfaces of density-contrast fluids},
-  author = {Chu*, T. and Wilfong, B. and Koehler, T. and McMullen, R. M. and Bryngelson, S. H.},
+  author = {Chu, T. and Wilfong, B. and Koehler, T. and McMullen, R. M. and Bryngelson, S. H.},
   journal = {Physical Review Fluids},
   volume = {10},
   issue = {9},
@@ -94,8 +94,8 @@
     booktitle={Proceedings of the SC '25 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
     year={2025},
     file = {wilfong25-HPCTESTS.pdf},
-    doi = {10.48550/arXiv.2509.13575},
-    abstract = {Deploying new supercomputers requires testing and evaluation via application codes. Portable, user-friendly tools enable evaluation, and the Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code, addresses this need. MFC is adorned with a toolchain that automates input generation, compilation, batch job submission, regression testing, and benchmarking. The toolchain design enables users to evaluate compiler-hardware combinations for correctness and performance with limited software engineering experience. As with other PDE solvers, wall time per spatially discretized grid point serves as a figure of merit. We present MFC benchmarking results for five generations of NVIDIA GPUs, three generations of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA, AMD, and GNU compilers. These tests have revealed compiler bugs and regressions on recent machines such as Frontier and El Capitan. MFC has benchmarked approximately 50 compute devices and 5 flagship supercomputers.}
+    doi = {10.1145/3731599.3767424},
+    abstract = {Deploying new supercomputers requires testing and evaluation via application codes. Portable, user-friendly tools enable evaluation, and the Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code, addresses this need. MFC is adorned with a toolchain that automates input generation, compilation, batch job submission, regression testing, and benchmarking. The toolchain design enables users to evaluate compiler–hardware combinations for correctness and performance with limited software engineering experience. As with other PDE solvers, wall time per spatially discretized grid point serves as a figure of merit. We present MFC benchmarking results for five generations of NVIDIA GPUs, three generations of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA, AMD, and GNU compilers. These tests have revealed compiler bugs and regressions on recent machines such as Frontier and El&nbsp;Capitan. MFC has benchmarked approximately 50 compute devices and 5 flagship supercomputers.},
 }
 
 @inproceedings{wilfong24_DFD,

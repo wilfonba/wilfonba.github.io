@@ -191,7 +191,6 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2025}
-    \field{extradate}{1}
     \field{labeldatesource}{}
     \field{sortinit}{7}
     \field{sortinithash}{7}
@@ -224,7 +223,7 @@
   \entry{tchu253}{article}{}
     \name{author}{5}{}{%
       {{hash=CT}{%
-         family={Chu*},
+         family={Chu},
          familyi={C\bibinitperiod},
          given={T.},
          giveni={T\bibinitperiod},
@@ -262,7 +261,6 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2025}
-    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{sortinit}{7}
     \field{sortinithash}{7}
@@ -600,7 +598,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{wilfong253}{unpublished}{}
+  \entry{wilfong253}{inproceedings}{}
     \name{author}{12}{}{%
       {{hash=WB}{%
          family={Wilfong},
@@ -687,26 +685,29 @@
     We present an optimized implementation of the recently proposed information
   geometric regularization (IGR) for unprecedented scale simulation of
   compressible fluid flows applied to multi-engine spacecraft boosters. We
-  improve upon state-ofthe-art computational fluid dynamics (CFD) techniques
-  along computational cost, memory footprint, and energy-to-solution metrics.
-  Unified memory on coupled CPU–GPU or APU platforms increases problem size
-  with negligible overhead. Mixed half/singleprecision storage and computation
-  on well-conditioned numerics is used. We simulate flow at 200 trillion grid
-  points and 1 quadrillion degrees of freedom, exceeding the current record by
-  a factor of 20. A factor of 4 wall-time speedup is achieved over optimized
-  baselines. Ideal weak scaling is seen on OLCF Frontier, LLNL El Capitan, and
-  CSCS Alps using the full systems. Strong scaling is near ideal at extreme
-  conditions, including 80\% efficiency on CSCS Alps with an 8 node baseline
-  and stretching to the full system.%
+  improve upon state-of-the-art computational fluid dynamics (CFD) techniques
+  in terms of computational cost, memory footprint, and energy-to-solution
+  metrics. Unified memory on coupled CPU–GPU or APU platforms increases
+  problem size with negligible overhead. Mixed half/single-precision storage
+  and computation are used on well-conditioned numerics. We simulate flow at
+  200&nbsp;trillion grid points and 1&nbsp;quadrillion degrees of freedom,
+  exceeding the current record by a factor of 20. A factor of 4 wall-time
+  speedup is achieved over optimized baselines. Ideal weak scaling is observed
+  on OLCF Frontier, LLNL El&nbsp;Capitan, and CSCS Alps using the full systems.
+  Strong scaling is near ideal at extreme conditions, including 80\% efficiency
+  on CSCS&nbsp;Alps with an 8&nbsp;node baseline and stretching to the full
+  system.%
     }
+    \field{booktitle}{Proceedings of the International Conference for High
+  Performance Computing, Networking, Storage and Analysis}
     \verb{doi}
-    \verb 10.48550/arXiv.2505.07392
+    \verb 10.1145/3712285.3771783
     \endverb
-    \field{note}{arXiv:2505.07392, {*}Equal contribution}
+    \field{note}{{*}Equal contribution}
     \field{title}{Simulating many-engine spacecraft: {E}xceeding 1 quadrillion
   degrees of freedom via information geometric regularization}
     \verb{file}
-    \verb wilfong-arxiv-25-2.pdf
+    \verb wilfong-GB.pdf
     \endverb
     \field{year}{2025}
   \endentry
@@ -765,19 +766,19 @@
   addresses this need. MFC is adorned with a toolchain that automates input
   generation, compilation, batch job submission, regression testing, and
   benchmarking. The toolchain design enables users to evaluate
-  compiler-hardware combinations for correctness and performance with limited
+  compiler–hardware combinations for correctness and performance with limited
   software engineering experience. As with other PDE solvers, wall time per
   spatially discretized grid point serves as a figure of merit. We present MFC
   benchmarking results for five generations of NVIDIA GPUs, three generations
   of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA,
   AMD, and GNU compilers. These tests have revealed compiler bugs and
-  regressions on recent machines such as Frontier and El Capitan. MFC has
+  regressions on recent machines such as Frontier and El&nbsp;Capitan. MFC has
   benchmarked approximately 50 compute devices and 5 flagship supercomputers.%
     }
     \field{booktitle}{Proceedings of the SC '25 Workshops of The International
   Conference on High Performance Computing, Network, Storage, and Analysis}
     \verb{doi}
-    \verb 10.48550/arXiv.2509.13575
+    \verb 10.1145/3731599.3767424
     \endverb
     \field{title}{Testing and benchmarking emerging supercomputers via the MFC
   flow solver}

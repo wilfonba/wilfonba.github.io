@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  19 NOV 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  22 NOV 2025 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,13 +775,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21398 strings out of 478268
- 390325 string characters out of 5846347
- 1067059 words of memory out of 5000000
- 39345 multiletter control sequences out of 15000+600000
+ 21397 strings out of 478268
+ 390306 string characters out of 5846347
+ 1067060 words of memory out of 5000000
+ 39344 multiletter control sequences out of 15000+600000
  474040 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,76p,1840b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,76p,1840b,1277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc
@@ -799,7 +799,7 @@ e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
 ublic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (4 pages, 187693 bytes).
+Output written on cv.pdf (4 pages, 187453 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams
