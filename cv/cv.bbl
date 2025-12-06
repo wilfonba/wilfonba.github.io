@@ -432,7 +432,7 @@
   flows.%
     }
     \verb{doi}
-    \verb https://arxiv.org/abs/2511.21031
+    \verb 10.48550/arXiv.2511.21031
     \endverb
     \field{title}{Hardware-Accelerated Phase-Averaging for Cavitating Bubbly
   Flows}
