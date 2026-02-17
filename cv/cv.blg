@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cv.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: cv-blx.bib
+Database file #2: ref.bib
+I was expecting a `,' or a `}'---line 19 of file ref.bib
+ :   
+ :   abstract= {Many problems of interest in engineering, medicine, and the fundamental sciences rely on high-fidelity flow simulation, making performant computational fluid dynamics solvers a mainstay of the open-source software community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021)) published MFC 3.0 with numerous physical features, numerics, and scalability. MFC 5.0 is a marked update to MFC 3.0, including a broad set of well-established and novel physical models and numerical methods, and the introduction of XPU acceleration. We exhibit state-of-the-art performance and ideal scaling on the first two exascale supercomputers, OLCF Frontier and LLNL El Capitan. Combined with MFC’s single-accelerator performance, MFC achieves exascale computation in practice. New physical features include the immersed boundary method, N-fluid phase change, Euler-Euler and Euler-Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic materials, chemically reacting flow, two-material surface tension, magnetohydrodynamics (MHD), and more. Numerical techniques now represent the current state-of-the-art, including general relaxation characteristic boundary conditions, WENO variants, Strang splitting for stiff sub-grid flow features, and low Mach number treatments. Weak scaling to tens of thousands of GPUs on OLCF Summit and Frontier and LLNL El Capitan sees efficiencies within 5% of ideal to their full system sizes. Strong scaling results for a 16-times increase in device count show parallel efficiencies over 90% on OLCF Frontier. MFC’s software stack has improved, including continuous integration, ensuring code resilience and correctness through over 300 regression tests; metaprogramming, reducing code length and maintaining performance portability; and code generation for computing chemical reactions.}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.17
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 17 entries,
+            6399 wiz_defined-function locations,
+            1317 strings with 28071 characters,
+and the built_in function-call counts, 272960 in all, are:
+= -- 22041
+> -- 7703
+< -- 913
++ -- 12624
+- -- 5702
+* -- 20898
+:= -- 36589
+add.period$ -- 0
+call.type$ -- 17
+change.case$ -- 189
+chr.to.int$ -- 241
+cite$ -- 32
+duplicate$ -- 25622
+empty$ -- 19881
+format.name$ -- 2387
+if$ -- 50540
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 0
+newline$ -- 970
+num.names$ -- 690
+pop$ -- 6983
+preamble$ -- 1
+purify$ -- 480
+quote$ -- 0
+skip$ -- 4315
+stack$ -- 0
+substring$ -- 43843
+swap$ -- 3867
+text.length$ -- 907
+text.prefix$ -- 16
+top$ -- 1
+type$ -- 566
+warning$ -- 0
+while$ -- 3937
+width$ -- 0
+write$ -- 954
+(There was 1 error message)

@@ -1,0 +1,1184 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{ydnt/global//global/global}
+  \entry{wilfong26_CPC}{article}{}
+    \name{author}{19}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Anand},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VDJ}{%
+         family={Vickers},
+         familyi={V\bibinitperiod},
+         given={D.\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VRD}{%
+         family={Vaca-Revelo},
+         familyi={V\bibinithyphendelim R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CJR}{%
+         family={Chreim},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={{Carcana Barbosa}},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CGE}{%
+         family={Cisneros-Garibay},
+         familyi={C\bibinithyphendelim G\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gnanaskandan},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={{Rodriguez Jr.}},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BRD}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Colonius},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBLHRAGAVDJVRDADYHLHCJRCMZYCGEGARMBRDASCTBSH1}
+    \strng{fullhash}{WBLHRAGAVDJVRDADYHLHCJRCMZYCGEGARMBRDASCTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.1016/j.cpc.2026.110055
+    \endverb
+    \field{pages}{110055}
+    \field{title}{{MFC 5.0: A}n exascale many-physics flow solver}
+    \field{volume}{322}
+    \verb{file}
+    \verb wilfong-mfc-26.pdf
+    \endverb
+    \field{journaltitle}{Computer Physics Communications}
+    \field{year}{2026}
+  \endentry
+
+  \entry{bryngelson25_UNCGPDE}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{BSHRAWB1}
+    \strng{fullhash}{BSHRAWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{3rd Virtual UNCG PDE Conference of 2025}
+    \field{title}{Solving Navier–Stokes-like problems with discontinuous
+  features via information geometric regularization}
+    \verb{file}
+    \verb bryngelson25-UNCGPDE.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{bryngelson25_USNCCM}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{BSHWBRA1}
+    \strng{fullhash}{BSHWBRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{18th U.S. National Congress on Computational Mechanics
+  (USNCCM)}
+    \field{title}{Numerics for diverse exascale platforms with application to
+  multi-phase and species flow}
+    \verb{file}
+    \verb bryngelson25-USNCCM.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{bryngelson25_DFD}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={F.},
+         familyi={F\bibinitperiod},
+         given={Sch\"aefer},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{BSHWBRAFS1}
+    \strng{fullhash}{BSHWBRAFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Shocks and interfaces in multiphase flows are tracked or captured via
+  numerics. We avoid this choice via information geometric regularization, an
+  inviscid treatment at the equation level, not the numerics. This
+  regularization elides grid-level discontinuity formation but maintains
+  long-term solution behavior. The method is robust, accurate, and scalable on
+  canonical test problems. Linear numerics are enabled with this approach,
+  enabling unprecedented grid sizes. On a 4-way NV GraceHopper (GH200) node we
+  accomodate 17 billion grid points, and similar on OLCF Frontier (AMD
+  Trento--MI250X), enabling better than 100 trillion grid points simulations
+  OLCF Frontier, LLNL El Capitan, and JSC JUPITER. Results show ideal weak
+  scaling to full-system on US and European flagship computers.%
+    }
+    \field{booktitle}{75th Annual Meeting of the APS Division of Fluid Dynamics
+  (APS DFD)}
+    \field{title}{Simulating shock-laden and muliphase flows interface without
+  tracking or dissipation}
+    \field{year}{2025}
+  \endentry
+
+  \entry{chu25_DFD}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=CT}{%
+         family={Chu*},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{CTWBKTMRBSH1}
+    \strng{fullhash}{CTWBKTMRBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Fluid–fluid interfacial instability and subsequent fluid mixing are
+  ubiquitous in nature and engineering. Two hydrodynamic instabilities have
+  long been thought to govern the interface behavior: the pressure
+  gradient-driven long-wavelength Rayleigh–Taylor (RT) instability and
+  resonance-induced short-wavelength Faraday instability. However, their
+  concurrent action remains poorly understood, as neither instability alone
+  captures the resulting dynamics. Here, we reveal a previously unseen
+  multi-modal instability emerging from their coexistence. Using linear Floquet
+  stability analysis, we show how vibrations govern transitions between the RT
+  and Faraday instabilities, leading to competition rather than resonant
+  enhancement. The initial transient growth is captured by the exponential
+  modal growth of the most unstable Floquet exponent, along with its
+  accompanying periodic behavior. Direct numerical simulations validate these
+  findings and track interface breakup into the multiscale and nonlinear
+  regimes. Critically, we show that growing RT modes nonlinearly suppress
+  Faraday responses, establishing a bidirectional competition that hinders
+  their sustained coexistence.%
+    }
+    \field{booktitle}{75th Annual Meeting of the APS Division of Fluid Dynamics
+  (APS DFD)}
+    \field{title}{Competing mechanisms at vibrated interfaces of
+  density-contrast fluids}
+    \field{year}{2025}
+  \endentry
+
+  \entry{tchu253}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CT}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{CTWBKTMRMBSH1}
+    \strng{fullhash}{CTWBKTMRMBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Fluid-fluid interfacial instability and subsequent fluid mixing are
+  ubiquitous in nature and engineering. Two hydrodynamic instabilities have
+  long been thought to govern the interface behavior: the pressure
+  gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and
+  resonance-induced short-wavelength Faraday instability. However, neither
+  instability alone can explain the dynamics when both mechanisms act
+  concurrently. Instead, we identify a previously unseen multi-modal
+  instability emerging from their coexistence. We show how vibrations govern
+  transitions between the RT and Faraday instabilities, with the two competing
+  instead of resonantly enhancing each other. The initial transient growth is
+  captured by the exponential modal growth of the most unstable Floquet
+  exponent, along with its accompanying periodic behavior. Direct numerical
+  simulations validate these findings and track interface breakup into the
+  multiscale and nonlinear regimes, in which the growing RT modes are shown to
+  suppress Faraday responses via a nonlinear mechanism.%
+    }
+    \verb{doi}
+    \verb 10.1103/r9b3-psg4
+    \endverb
+    \field{issue}{9}
+    \field{pages}{093904}
+    \field{title}{Competing mechanisms at vibrated interfaces of
+  density-contrast fluids}
+    \field{volume}{10}
+    \verb{file}
+    \verb chu-rt-25.pdf
+    \endverb
+    \field{journaltitle}{Physical Review Fluids}
+    \field{year}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{bryngelson25_APSGS}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=RA}{%
+         family={Radhakrisnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LBH}{%
+         family={Le\bibnamedelima Berre},
+         familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{RALBHWBBRASBSH1}
+    \strng{fullhash}{RALBHWBBRASBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    We present advancements in compressible flow algorithms and their
+  optimization and performance on Oak Ridge Frontier and LLNL El Capitan early
+  access systems. OpenACC is used as the directive-based offloading tool, which
+  we demonstrate to be sufficiently flexible for multi-phase/-physics flow
+  configurations in a large Fortran codebase called MFC [Bryngelson et al.,
+  Comp. Phys. Comm. (2021)]. Performance on AMD GPU architectures reveals the
+  meaningful difference between the hardware and compiler profiles of NVIDIA
+  against AMD (A/G)PU hardware. NVIDIA hardware, generally, presents larger
+  cache sizes and higher memory bandwidth, enabling close to compute-roofline
+  performance with NVHPC compilers. AMD hardware is partially limited by its
+  memory bandwidth and restriction to, in our case, the Cray Compiler
+  Environment (CCE). With new CCE releases, compiler bugs for AMD
+  GPU-offloading remain salient but can be resolved via minor workarounds.
+  Results show closer to compute-roofline performance on current NVIDIA
+  hardware, though the new devices from both vendors may level this difference.
+  Performance studies are conducted where possible and approved for release.%
+    }
+    \field{booktitle}{APS Global Physics Summit}
+    \field{title}{Compressible flow simulations on Frontier and El Capitan
+  architectures}
+    \field{year}{2025}
+  \endentry
+
+  \entry{vacarevelo2025}{unpublished}{}
+    \name{author}{4}{}{%
+      {{hash=VRD}{%
+         family={Vaca-Revelo},
+         familyi={V\bibinithyphendelim R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngleson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gnanaskandan},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VRDWBBSHGA1}
+    \strng{fullhash}{VRDWBBSHGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    We present a comprehensive validation, performance characterization, and
+  scalability analysis of a hardware-accelerated phase-averaged multiscale
+  solver designed to simulate acoustically driven dilute bubbly suspensions.
+  The carrier fluid is modeled using the compressible Navier-Stokes equations.
+  The dispersed phase is represented through two distinct subgrid formulations:
+  a volume-averaged model that explicitly treats discrete bubbles within a
+  Lagrangian framework, and an ensemble-averaged model that statistically
+  represents the bubble population through a discretized distribution of bubble
+  sizes. For both models, the bubble dynamics are modeled via the
+  Keller--Miksis equation. For the GPU cases, we use OpenACC directives to
+  offload computation to the GPUs. The volume-averaged model is validated
+  against the analytical Keller-Miksis solution and experimental measurements,
+  showing excellent agreement with root-mean-squared errors of less than 8% for
+  both single-bubble oscillation and collapse scenarios. The ensemble-averaged
+  model is validated by comparing it to volume-averaged simulations. On an NCSA
+  Delta node with 4 NVIDIA A100 GPUs, we observe a speedup 16-fold compared to
+  a 64-core AMD Milan CPU. The ensemble-averaged model offers additional
+  reductions in computational cost by solving a single set of averaged
+  equations, rather than multiple stochastic realizations. However, the
+  volume-averaged model enables the interrogation of individual bubble
+  dynamics, rather than the averaged statistics of the bubble dynamics. Weak
+  and strong scaling tests demonstrate good scalability across both CPU and GPU
+  platforms. These results show the proposed method is robust, accurate, and
+  efficient for the multiscale simulation of acoustically driven dilute bubbly
+  flows.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2511.21031
+    \endverb
+    \field{title}{Hardware-Accelerated Phase-Averaging for Cavitating Bubbly
+  Flows}
+    \verb{file}
+    \verb vacarevelo-arxiv-25.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{wilfong25_DFD}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WB}{%
+         family={Wilfong*},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{WBCTMRKTBSH1}
+    \strng{fullhash}{WBCTMRKTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    The downward rectified motion of gas in vibrated liquids, caused by
+  compressibility–vibration coupling between bubbles and the surrounding
+  fluid, is a phenomenon observed in experiments. The coalescence of injected
+  gas can lead to the formation of gas-rich regions, which significantly alter
+  the hydrodynamic damping properties of fluid–structure systems. Downward
+  motion occurs when the primary Bjerknes force exceeds the buoyancy force, a
+  condition only met when a bubble descends past a critical "neutral depth."
+  However, experimental observations of bubbles crossing this depth are
+  limited, and the mechanisms enabling this transport remain poorly understood.
+  To address this gap, we present a numerical study using diffuse-interface and
+  Euler–Lagrange models that incorporate radial bubble dynamics and two-way
+  coupling with the liquid phase. The numerical results are validated against
+  analytical predictions for isolated bubbles and then used to quantify bubble
+  trajectories and forces during downward transport. Our findings suggest that
+  vibration-induced liquid surface waves generate bulk fluid motion that drives
+  bubbles past the neutral depth, revealing a mechanism for gas migration in
+  vibrated multiphase systems.%
+    }
+    \field{booktitle}{75th Annual Meeting of the APS Division of Fluid Dynamics
+  (APS DFD)}
+    \field{title}{Euler–Lagrange simulations of near-surface gas transport in
+  vibrated bubbly flows}
+    \field{year}{2025}
+  \endentry
+
+  \entry{wilfong253}{inproceedings}{}
+    \name{author}{12}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VDJ}{%
+         family={Vickers},
+         familyi={V\bibinitperiod},
+         given={D.\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Prathi},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tselepidis},
+         familyi={T\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Dorschner},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cornille},
+         familyi={C\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={{*}Schäfer},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={{*}Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBRALHVDJPTTNDBBRCBASSFBSH1}
+    \strng{fullhash}{WBRALHVDJPTTNDBBRCBASSFBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    We present an optimized implementation of the recently proposed information
+  geometric regularization (IGR) for unprecedented scale simulation of
+  compressible fluid flows applied to multi-engine spacecraft boosters. We
+  improve upon state-of-the-art computational fluid dynamics (CFD) techniques
+  in terms of computational cost, memory footprint, and energy-to-solution
+  metrics. Unified memory on coupled CPU–GPU or APU platforms increases
+  problem size with negligible overhead. Mixed half/single-precision storage
+  and computation are used on well-conditioned numerics. We simulate flow at
+  200&nbsp;trillion grid points and 1&nbsp;quadrillion degrees of freedom,
+  exceeding the current record by a factor of 20. A factor of 4 wall-time
+  speedup is achieved over optimized baselines. Ideal weak scaling is observed
+  on OLCF Frontier, LLNL El&nbsp;Capitan, and CSCS Alps using the full systems.
+  Strong scaling is near ideal at extreme conditions, including 80\% efficiency
+  on CSCS&nbsp;Alps with an 8&nbsp;node baseline and stretching to the full
+  system.%
+    }
+    \field{booktitle}{Proceedings of the International Conference for High
+  Performance Computing, Networking, Storage and Analysis}
+    \verb{doi}
+    \verb 10.1145/3712285.3771783
+    \endverb
+    \field{note}{{*}Equal contribution}
+    \field{title}{Simulating many-engine spacecraft: {E}xceeding 1 quadrillion
+  degrees of freedom via information geometric regularization}
+    \verb{file}
+    \verb wilfong-GB.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{wilfong25_HPCTESTS}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LHA}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Prathi},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBRALHAPTASBSH1}
+    \strng{fullhash}{WBRALHAPTASBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Deploying new supercomputers requires testing and evaluation via
+  application codes. Portable, user-friendly tools enable evaluation, and the
+  Multicomponent Flow Code (MFC), a computational fluid dynamics (CFD) code,
+  addresses this need. MFC is adorned with a toolchain that automates input
+  generation, compilation, batch job submission, regression testing, and
+  benchmarking. The toolchain design enables users to evaluate
+  compiler–hardware combinations for correctness and performance with limited
+  software engineering experience. As with other PDE solvers, wall time per
+  spatially discretized grid point serves as a figure of merit. We present MFC
+  benchmarking results for five generations of NVIDIA GPUs, three generations
+  of AMD GPUs, and various CPU architectures, utilizing Intel, Cray, NVIDIA,
+  AMD, and GNU compilers. These tests have revealed compiler bugs and
+  regressions on recent machines such as Frontier and El&nbsp;Capitan. MFC has
+  benchmarked approximately 50 compute devices and 5 flagship supercomputers.%
+    }
+    \field{booktitle}{Proceedings of the SC '25 Workshops of The International
+  Conference on High Performance Computing, Network, Storage, and Analysis}
+    \verb{doi}
+    \verb 10.1145/3731599.3767424
+    \endverb
+    \field{title}{Testing and benchmarking emerging supercomputers via the MFC
+  flow solver}
+    \verb{file}
+    \verb wilfong25-HPCTESTS.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{radhakrishnan24_CPC}{article}{}
+    \name{author}{7}{}{%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SJS}{%
+         family={Spratt},
+         familyi={S\bibinitperiod},
+         given={J.-S.},
+         giveni={J\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={{Rodriguez Jr.}},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Colonius},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RALHWBSJSRMCTBSH1}
+    \strng{fullhash}{RALHWBSJSRMCTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Multiphase compressible flows are often characterized by a broad range of
+  space and time scales, entailing large grids and small time steps.
+  Simulations of these flows on CPU-based clusters can thus take several
+  wall-clock days. Offloading the compute kernels to GPUs appears attractive
+  but is memory-bound for many finite-volume and -difference methods, damping
+  speedups. Even when realized, GPU-based kernels lead to more intrusive
+  communication and I/O times owing to lower computation costs. We present a
+  strategy for GPU acceleration of multiphase compressible flow solvers that
+  addresses these challenges and obtains large speedups at scale. We use
+  OpenACC for directive-based offloading of all compute kernels while
+  maintaining low-level control when needed. An established Fortran
+  preprocessor and metaprogramming tool, Fypp, enables otherwise hidden
+  compile-time optimizations. This strategy exposes compile-time optimizations
+  and high memory reuse while retaining readable, maintainable, and compact
+  code. Remote direct memory access realized via CUDA-aware MPI and GPUDirect
+  reduces halo-exchange communication time. We implement this approach in the
+  open-source solver MFC [1]. Metaprogramming results in an 8-times speedup of
+  the most expensive kernels compared to a statically compiled program,
+  reaching 46\% of peak FLOPs on modern NVIDIA GPUs and high arithmetic
+  intensity (about 10 FLOPs/byte). In representative simulations, a single
+  NVIDIA A100 GPU is 7-times faster compared to an Intel Xeon Cascade Lake
+  (6248) CPU die, or about 300-times faster compared to a single such CPU core.
+  At the same time, near-ideal (97\%) weak scaling is observed for at least
+  13824 GPUs on OLCF Summit. A strong scaling efficiency of 84\% is retained
+  for an 8-times increase in GPU count. Collective I/O, implemented via MPI3,
+  helps ensure the negligible contribution of data transfers (<1\% of the wall
+  time for a typical, large simulation). Large many-GPU simulations of
+  compressible (solid-)liquid-gas flows demonstrate the practical utility of
+  this strategy.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cpc.2024.109238
+    \endverb
+    \field{pages}{109238}
+    \field{title}{Method for portable, scalable, and performant
+  {GPU}-accelerated simulation of multiphase compressible flow}
+    \field{volume}{302}
+    \verb{file}
+    \verb radhakrishnan-CPC-24.pdf
+    \endverb
+    \field{journaltitle}{Computer Physics Communications}
+    \field{year}{2024}
+  \endentry
+
+  \entry{wilfong24_DFD}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WB}{%
+         family={Wilfong*},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{WBCTMRKTBSH1}
+    \strng{fullhash}{WBCTMRKTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Liquid-gas interfaces break up when subjected to large-amplitude
+  oscillatory accelerations due to hydrodynamic instability. Interface breakup
+  can lead to the injection of the gas phase into the liquid phase below. This
+  gas injection can alter damping properties of fluid-structural systems and
+  depends on the nature of early-stage interface breakup. The breakup that
+  leads to gas injection depends on the configuration details, including the
+  vibration frequency, acceleration amplitude, and character of the initial
+  interface perturbation. We use a 6-equation Baer-Nunziato type diffuse
+  interface model equipped with body force and surface tension effects to
+  simulate early-stage interface breakup and the resulting injection of the gas
+  into the liquid below it. The results indicate a reasonable agreement between
+  simulation growth rates and linear stability analysis, as well as growth-rate
+  independence across random interface perturbations at oscillating
+  accelerations on the order of ten times Earth's gravity with frequencies in
+  the hundreds of hertz. The formation of droplets due to the Rayleigh-Plateau
+  instability in the jetting resulting from the violent acceleration is
+  observed, as well as the entrainment of gas. The volume of ejected droplets
+  and entrained gas are reported over time.%
+    }
+    \field{booktitle}{74th Annual Meeting of the APS Division of Fluid Dynamics
+  (APS DFD)}
+    \field{title}{Hydrodynamic instability and breakup of a liquid-gas
+  interface via vibration}
+    \field{year}{2024}
+  \endentry
+
+  \entry{wilfong24_ICNMMF}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{WBRABSH1}
+    \strng{fullhash}{WBRABSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{5th International Conference on Numerical Methods for
+  Multiphase Flow (ICNMMF)}
+    \field{title}{{Multiphase flow numerics: Perspectives from exascale
+  simulation}}
+    \verb{file}
+    \verb wilfong24-ICNMMF.pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{wilfong24_WACCPD}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LHA}{%
+         family={{Le Berre}},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BRD}{%
+         family={Budiardja},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBRALHAASBRDBSH1}
+    \strng{fullhash}{WBRALHAASBRDBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    GPUs are the heart of the latest generations of supercomputers. We
+  efficiently accelerate a compressible multiphase flow solver via OpenACC on
+  NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the
+  directive clauses ’gang vector’ and ’collapse’. Further speedups of
+  six and ten times are achieved by packing user-defined types into coalesced
+  multidimensional arrays and manual inlining via metaprogramming. Additional
+  optimizations yield seven-times speedup in array packing and thirty-times
+  speedup of select kernels on Frontier. Weak scaling efficiencies of 97\% and
+  95\% are observed when scaling to 50\% of Summit and 95\% of Frontier. Strong
+  scaling efficiencies of 84\% and 81\% are observed when increasing the device
+  count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling
+  efficiency of AMD’s MI250X increases to 92\% when increasing the device
+  count by a factor of 16 when GPU-aware MPI is used for communication.%
+    }
+    \field{booktitle}{Proceedings of the SC '24 Workshops of The International
+  Conference on High Performance Computing, Network, Storage, and Analysis}
+    \verb{doi}
+    \verb 10.1109/SCW63240.2024.00242
+    \endverb
+    \field{title}{{OpenACC} offloading of the {MFC} compressible multiphase
+  flow solver on {AMD} and {NVIDIA GPUs}}
+    \verb{file}
+    \verb wilfong24-WACCPD.pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{wilfong24_AIAA}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WBA}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={McMullen},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Koehler},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBAMRKTBSH1}
+    \strng{fullhash}{WBAMRKTBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Vibrating liquid–gas interfaces can break up due to hydrodynamic
+  instability, resulting in gas injection into the liquid below it. The bubble
+  injection phenomena can alter fluid-structural properties of mechanical
+  assemblies and modify fuel composition. The primary Bjerknes force describes
+  the seemingly counter-intuitive phenomenon that follows: gas bubbles sinking
+  against buoyancy forces. The interface breakup that initializes the injection
+  phenomenon is poorly understood and, as we show, depends on multiple problem
+  parameters, including vibration frequency. This work uses an augmented
+  6-equation diffuse interface model with body forces and surface tension to
+  simulate the initial breakup process. We show that a liquid–gas interface
+  can inject a lighter gas into a heavier liquid, and that this process depends
+  on parameters like the vibration frequency, vibration magnitude, and initial
+  perturbation wavelength.%
+    }
+    \field{booktitle}{AIAA AVIATION FORUM AND ASCEND 2024}
+    \verb{doi}
+    \verb 10.2514/6.2024-4480
+    \endverb
+    \field{title}{Instability of Two-Species Interfaces via Vibration}
+    \verb{file}
+    \verb wilfong24-AIAA.pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+\enddatalist
+\endinput
