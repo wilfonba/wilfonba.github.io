@@ -17,6 +17,55 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
+  \entry{bryngelson26_SIAMPP}{incollection}{}
+    \name{author}{5}{}{%
+      {{hash=BSH}{%
+         family={Bryngelson*},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Prathi},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vickers},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{nonheavy}
+    \strng{namehash}{BSHPTRAVDWB1}
+    \strng{fullhash}{BSHPTRAVDWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{SIAM Conference on Parallel Processing for Scientific
+  Computing (PP26)}
+    \field{title}{Compressible flow with a free lunch: {S}imulating 1
+  quadrillion degrees of freedom via regularization without loss of accuracy}
+    \field{year}{2026}
+  \endentry
+
   \entry{wilfong26_CPC}{article}{}
     \name{author}{19}{}{%
       {{hash=WB}{%
@@ -142,6 +191,34 @@
     \field{labeldatesource}{}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \field{abstract}{%
+    Many problems of interest in engineering, medicine, and the fundamental
+  sciences rely on high-fidelity flow simulation, making performant
+  computational fluid dynamics solvers a mainstay of the open-source software
+  community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021))
+  published MFC 3.0 with numerous physical features, numerics, and scalability.
+  MFC 5.0 is a marked update to MFC 3.0, including a broad set of
+  well-established and novel physical models and numerical methods, and the
+  introduction of XPU acceleration. We exhibit state-of-the-art performance and
+  ideal scaling on the first two exascale supercomputers, OLCF Frontier and
+  LLNL El Capitan. Combined with MFC’s single-accelerator performance, MFC
+  achieves exascale computation in practice. New physical features include the
+  immersed boundary method, N-fluid phase change, Euler-Euler and
+  Euler-Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and
+  hyper-elastic materials, chemically reacting flow, two-material surface
+  tension, magnetohydrodynamics (MHD), and more. Numerical techniques now
+  represent the current state-of-the-art, including general relaxation
+  characteristic boundary conditions, WENO variants, Strang splitting for stiff
+  sub-grid flow features, and low Mach number treatments. Weak scaling to tens
+  of thousands of GPUs on OLCF Summit and Frontier and LLNL El Capitan sees
+  efficiencies within 5% of ideal to their full system sizes. Strong scaling
+  results for a 16-times increase in device count show parallel efficiencies
+  over 90% on OLCF Frontier. MFC’s software stack has improved, including
+  continuous integration, ensuring code resilience and correctness through over
+  300 regression tests; metaprogramming, reducing code length and maintaining
+  performance portability; and code generation for computing chemical
+  reactions.%
+    }
     \verb{doi}
     \verb 10.1016/j.cpc.2026.110055
     \endverb

@@ -7,6 +7,25 @@
       abstract = {We present a comprehensive validation, performance characterization, and scalability analysis of a hardware-accelerated phase-averaged multiscale solver designed to simulate acoustically driven dilute bubbly suspensions. The carrier fluid is modeled using the compressible Navier-Stokes equations. The dispersed phase is represented through two distinct subgrid formulations: a volume-averaged model that explicitly treats discrete bubbles within a Lagrangian framework, and an ensemble-averaged model that statistically represents the bubble population through a discretized distribution of bubble sizes. For both models, the bubble dynamics are modeled via the Keller--Miksis equation. For the GPU cases, we use OpenACC directives to offload computation to the GPUs. The volume-averaged model is validated against the analytical Keller-Miksis solution and experimental measurements, showing excellent agreement with root-mean-squared errors of less than 8% for both single-bubble oscillation and collapse scenarios. The ensemble-averaged model is validated by comparing it to volume-averaged simulations. On an NCSA Delta node with 4 NVIDIA A100 GPUs, we observe a speedup 16-fold compared to a 64-core AMD Milan CPU. The ensemble-averaged model offers additional reductions in computational cost by solving a single set of averaged equations, rather than multiple stochastic realizations. However, the volume-averaged model enables the interrogation of individual bubble dynamics, rather than the averaged statistics of the bubble dynamics. Weak and strong scaling tests demonstrate good scalability across both CPU and GPU platforms. These results show the proposed method is robust, accurate, and efficient for the multiscale simulation of acoustically driven dilute bubbly flows.}
 }
 
+@incollection{bryngelson26_SIAMPP,
+  title = {Compressible flow with a free lunch: {S}imulating 1 quadrillion degrees of freedom via regularization without loss of accuracy},
+  author = {Bryngelson*, S. H. and Prathi, T. and Radhakrishnan, A. and Vickers, D. and Wilfong, B.},
+  booktitle = {SIAM Conference on Parallel Processing for Scientific Computing (PP26)},
+  year = {2026},
+  keywords = "nonheavy",
+}
+
+@inproceedings{wilfong25_DFD,
+  title = {Euler–Lagrange simulations of near-surface gas transport in vibrated bubbly flows},
+  author = {Wilfong*, B. and Chu, T. and McMullen, R. and Koehler, T. and Bryngelson, S. H.},
+  booktitle = {75th Annual Meeting of the APS Division of Fluid Dynamics (APS DFD)},
+  year = {2025},
+  abstract = {The downward rectified motion of gas in vibrated liquids, caused by compressibility–vibration coupling between bubbles and the surrounding fluid, is a phenomenon observed in experiments. The coalescence of injected gas can lead to the formation of gas-rich regions, which significantly alter the hydrodynamic damping properties of fluid–structure systems. Downward motion occurs when the primary Bjerknes force exceeds the buoyancy force, a condition only met when a bubble descends past a critical "neutral depth." However, experimental observations of bubbles crossing this depth are limited, and the mechanisms enabling this transport remain poorly understood. To address this gap, we present a numerical study using diffuse-interface and Euler–Lagrange models that incorporate radial bubble dynamics and two-way coupling with the liquid phase. The numerical results are validated against analytical predictions for isolated bubbles and then used to quantify bubble trajectories and forces during downward transport. Our findings suggest that vibration-induced liquid surface waves generate bulk fluid motion that drives bubbles past the neutral depth, revealing a mechanism for gas migration in vibrated multiphase systems.},
+    keywords = "nonheavy",
+}
+
+
+
 @article{wilfong26_CPC,
   author = {Wilfong, B. and {Le Berre}, H. and R. , Anand and Gupta, A. and Vickers, D. J. and Vaca-Revelo, D. and Adam, D. and Yu, H. and Lee, H. and Chreim, J. R. and {Carcana Barbosa}, M. and Zhang, Y. and Cisneros-Garibay, E. and Gnanaskandan, A. and {Rodriguez Jr.}, M. and Budiardja, R. D. and Abbott, S. and Colonius, T. and Bryngelson, S. H.},
   title = {{MFC 5.0: A}n exascale many-physics flow solver},
