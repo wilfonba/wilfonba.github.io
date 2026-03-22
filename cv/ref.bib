@@ -1,13 +1,25 @@
-@unpublished{vacarevelo2025,
-      author={Vaca-Revelo, D. and Wilfong, B. and Bryngleson, S. H. and Gnanaskandan, A.},
-      title={Hardware-Accelerated Phase-Averaging for Cavitating Bubbly Flows},
-      doi={10.48550/arXiv.2511.21031},
-      file = {vacarevelo-arxiv-25.pdf},
-      year={2025},
-      abstract = {We present a comprehensive validation, performance characterization, and scalability analysis of a hardware-accelerated phase-averaged multiscale solver designed to simulate acoustically driven dilute bubbly suspensions. The carrier fluid is modeled using the compressible Navier-Stokes equations. The dispersed phase is represented through two distinct subgrid formulations: a volume-averaged model that explicitly treats discrete bubbles within a Lagrangian framework, and an ensemble-averaged model that statistically represents the bubble population through a discretized distribution of bubble sizes. For both models, the bubble dynamics are modeled via the Keller--Miksis equation. For the GPU cases, we use OpenACC directives to offload computation to the GPUs. The volume-averaged model is validated against the analytical Keller-Miksis solution and experimental measurements, showing excellent agreement with root-mean-squared errors of less than 8% for both single-bubble oscillation and collapse scenarios. The ensemble-averaged model is validated by comparing it to volume-averaged simulations. On an NCSA Delta node with 4 NVIDIA A100 GPUs, we observe a speedup 16-fold compared to a 64-core AMD Milan CPU. The ensemble-averaged model offers additional reductions in computational cost by solving a single set of averaged equations, rather than multiple stochastic realizations. However, the volume-averaged model enables the interrogation of individual bubble dynamics, rather than the averaged statistics of the bubble dynamics. Weak and strong scaling tests demonstrate good scalability across both CPU and GPU platforms. These results show the proposed method is robust, accurate, and efficient for the multiscale simulation of acoustically driven dilute bubbly flows.}
+@article{vacarevelo2026_IJMF,
+  title = {Hardware-accelerated phase-averaging for cavitating bubbly flows},
+  journal = {International Journal of Multiphase Flow},
+  pages = {105674},
+  year = {2026},
+  issn = {0301-9322},
+  doi = {https://doi.org/10.1016/j.ijmultiphaseflow.2026.105674},
+  file = {vacarevelo-IJMF-26.pdf},
+  author = {Vaca-Revelo, D. and Wilfong, B. and Bryngelson, S. H. and Gnanaskandan, A.},
+  keywords = {Cavitation, Bubble dynamics, Subgrid bubble models, Hardware acceleration},
+  abstract = {We present a comprehensive validation, performance characterization, and scalability analysis of a hardware-accelerated phase-averaged multiscale solver for simulating acoustically driven dilute bubbly suspensions. The carrier fluid is modeled using the compressible Navier–Stokes equations. The dispersed phase is represented through two distinct subgrid formulations: a volume-averaged model that explicitly treats discrete bubbles within a Lagrangian framework, and an ensemble-averaged model that statistically represents the bubble population through a discretized distribution of bubble sizes. For both models, the bubble dynamics are modeled via the Keller–Miksis equation. For the GPU cases, we use OpenACC directives to offload computation to the GPUs. The volume-averaged model is validated against the analytical Keller-Miksis solution and experimental measurements, showing excellent agreement with root-mean-squared errors of less than 8\% for both single-bubble oscillation and collapse scenarios. The ensemble-averaged model is validated by comparing it to volume-averaged simulations. On an NCSA Delta node with 4 NVIDIA A100 GPUs, we observe a 16-fold speedup over a 64-core AMD Milan CPU. The ensemble-averaged model offers additional reductions in computational cost by solving a single set of averaged equations, rather than multiple stochastic realizations. However, the volume-averaged model enables the interrogation of individual bubble dynamics rather than their averaged statistics. Weak- and strong-scaling tests demonstrate good scalability across both CPU and GPU platforms. These results show the proposed method is robust, accurate, and efficient for the multiscale simulation of acoustically driven dilute bubbly flows.},
 }
 
-@incollection{bryngelson26_SIAMPP,
+@inproceedings{bryngelson26_APSGPS,
+ title = {Shocks without tracking or capturing: Exceeding 1 quadrillion degrees of freedom via invisicid regularization of the compressible Navier-Stokes equations},
+ author = {Bryngelson*, S. H. and Radhakrisnan, A. and Wilfong, B. and Sch\"aefer, F.},
+ booktitle = {American Physical Society Global Physics Summit},
+ year = {2026},
+ keywords = "nonheavy",
+}
+
+@inproceedings{bryngelson26_SIAMPP,
   title = {Compressible flow with a free lunch: {S}imulating 1 quadrillion degrees of freedom via regularization without loss of accuracy},
   author = {Bryngelson*, S. H. and Prathi, T. and Radhakrishnan, A. and Vickers, D. and Wilfong, B.},
   booktitle = {SIAM Conference on Parallel Processing for Scientific Computing (PP26)},
