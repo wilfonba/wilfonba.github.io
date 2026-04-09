@@ -109,6 +109,72 @@
     \field{year}{2026}
   \endentry
 
+  \entry{radhakrishnan_26_igr}{unpublished}{}
+    \name{author}{4}{}{%
+      {{hash=RA}{%
+         family={Radhakrisnan},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wilfong},
+         familyi={W\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryngelson},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sch\"aefer},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAWBBSHSF1}
+    \strng{fullhash}{RAWBBSHSF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Shock waves in high-speed fluid dynamics produce near-discontinuities in
+  the fluid momentum, density, and energy. Most contemporary works use
+  artificial viscosity or limiters as numerical mitigation of the Gibbs–Runge
+  oscillations that result from traditional numerics. These ap- proaches face a
+  delicate balance in achieving sufficiently regular solutions without
+  dissipating fine-scale features, such as turbulence or acoustics. Recent work
+  by Cao and Sch¨afer introduces information geometric regularization (IGR),
+  the first inviscid regularization method for fluid dynamics. IGR replaces
+  shock singularities with smooth profiles of adjustable width, without
+  dissipating fine-scale features. This work provides a strategy for the
+  practical use of IGR in finite-volume-based numerical methods. We illustrate
+  its performance on canonical test problems and compare it against established
+  approaches based on limiters and Riemann solvers. Results show that the
+  finite volume IGR approach recovers the expected solutions in all cases.
+  Across canonical benchmarks, IGR achieves accuracy competitive with WENO and
+  LAD shock-capturing schemes in both smooth and discontinuous flow regimes.
+  The IGR approach is computationally light, with meaningfully fewer memory
+  accesses and arithmetic operations per time step.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2604.06546
+    \endverb
+    \field{title}{Shocks without shock capturing: Information geometric
+  regularization of finite volume methods for Navier--Stokes-like problems}
+    \verb{file}
+    \verb radhakrishnan-arxiv-26.pdf
+    \endverb
+    \field{year}{2026}
+  \endentry
+
   \entry{vacarevelo2026_IJMF}{article}{}
     \name{author}{4}{}{%
       {{hash=VRD}{%
