@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  9 APR 2026 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.24)  12 MAY 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,24 +749,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--77
  []
 
 
-Overfull \hbox (20.80806pt too wide) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+
+Overfull \hbox (20.80806pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/m/n/10 (2025) ACM Gor-don Bell Prize Fi-nal-ist (\OT1/cmr/m/it/10 Si
 m-u-lat-ing many-engine space-craft: Ex-ceed-ing 1 quadrillion
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
+(Font)              <5> on input line 105.
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 128.
+nput line 130.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
-Overfull \hbox (14.6283pt too wide) in paragraph at lines 148--149
+Overfull \hbox (14.6283pt too wide) in paragraph at lines 150--151
 \OT1/cmr/m/it/10 phase Flow\OT1/cmr/m/n/10 , p. 105674. \OT1/cmr/m/sc/10 issn\O
 T1/cmr/m/n/10 : 0301-9322. \OT1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : [][]$\OT1/cmtt
 /m/n/10 https : / / doi . org / 10 . 1016 / j . ijmultiphaseflow .
@@ -782,10 +787,10 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21413 strings out of 478268
- 390721 string characters out of 5846347
+ 21414 strings out of 478268
+ 390751 string characters out of 5846347
  1068218 words of memory out of 5000000
- 39356 multiletter control sequences out of 15000+600000
+ 39357 multiletter control sequences out of 15000+600000
  474040 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,11n,76p,1840b,1277s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -806,7 +811,7 @@ e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
 ublic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (4 pages, 190068 bytes).
+Output written on cv.pdf (4 pages, 189923 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  172 compressed objects within 2 object streams
