@@ -11,4 +11,4 @@
 latexmk -c cv.tex
 latexmk -pdf cv.tex
 latexmk -pdf cv.tex
-
+latexmk -c cv.tex
