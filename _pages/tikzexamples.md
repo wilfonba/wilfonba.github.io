@@ -41,10 +41,10 @@ images:
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Description
-This is a collection of Tikz and PGFPlots examples.
-Click on any of the pictures and download a .zip file containing everything you need to compile the figure yourself!
+This is a collection of TikZ and PGFPlots examples.
+Click on any of the pictures to download a .zip file containing everything you need to compile the figure yourself!
 These examples can be used as starting points for making new figures.
-Some of these figures are strongly based on those created by Spencer H. Bryngelson, Anand Radhakrishnan, and Henry H. Le Berre.
+Some of these figures are strongly based on those created by Spencer H. Bryngelson, Anand Radhakrishnan, and Henry A. Le Berre.
 </div>
 </div>
 

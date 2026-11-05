@@ -1,5 +1,5 @@
 ---
-title: "FFMPEG Cheat Sheet"
+title: "FFmpeg Cheat Sheet"
 layout: page
 sitemap: false
 permalink: /ffmpeg%20cheat%20sheet/
@@ -8,16 +8,16 @@ permalink: /ffmpeg%20cheat%20sheet/
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Create a video from a sequence of PNG images
-The following command can be used to make a .mp4 video from a series of images padded with zeros (`pic.00001.png`, `pic.0002.png`, ...).
+The following command can be used to make an .mp4 video from a series of images padded with zeros (`pic.0001.png`, `pic.0002.png`, ...).
 
 ```
 ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
 ```
 
 The inputs are:
-* `-r` is the framerate
-* `-crf` is the quality, lower means better quality
-* `-S` (optional) video resolution in pixels
+* `-r` is the frame rate
+* `-crf` is the quality; lower means better quality
+* `-s` (optional) video resolution in pixels
 * `-pix_fmt` specifies the pixel format
 </div>
 </div>
@@ -52,7 +52,7 @@ ffmpeg -i 1.mp4 -i 2.mp4 -filter_complex hstack out.mp4
 ```
 ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex hstack=N out.mp4
 ```
-A 2x2 array of compatible videos can be created using
+A 2x2 array of compatible videos can be created using:
 ```
 ffmpeg -i input0 -i input1 -i input2 -i input3 -filter_complex "[0:v][1:v][2:v][3:v]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" -map "[v]" output.mp4
 ```
@@ -62,7 +62,7 @@ ffmpeg -i input0 -i input1 -i input2 -i input3 -filter_complex "[0:v][1:v][2:v][
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Dealing with an odd number of pixels
-Adding `-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"` to your FFMPEG command as shown below allows you to create a video from PNGs that are not an even number of pixels in height and/or width.
+Adding `-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"` to your FFmpeg command as shown below allows you to create a video from PNGs that are not an even number of pixels in height and/or width.
 ```
 ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -crf 25  -pix_fmt yuv420p test.mp4
 ```
@@ -72,7 +72,7 @@ ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -vf "pad=ceil(iw/2)*2:cei
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Adding an .mp3 to a video
-The following command can be used to add sound to video.
+The following command can be used to add sound to a video.
 ```
 ffmpeg -r 30 -f image2 -i pic.%04d.png -i MP3FILE.mp3 -vcodec libx264 -b 4M -vpre normal -acodec copy test.mp4
 ```
@@ -95,14 +95,14 @@ ffmpeg  -i INPUT.avi -vcodec libx264 -crf 25 OUTPUT.mp4
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 #### Cropping a video
-The following command can be used to crop a video
+The following command can be used to crop a video:
 ```
 ffmpeg -i input.mp4 -vf "crop=w:h:x:y" output.mp4
 ```
-where the inputs are
+where the inputs are:
 * `-vf` indicates the usage of a video filter
 * `crop` is the name of the filter
-* `w:h` is the width and height of the output video<
-* `x:y` is the coordinate from which the video will be
+* `w:h` is the width and height of the output video
+* `x:y` is the coordinate from which the video will be cropped
 </div>
 </div>

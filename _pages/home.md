@@ -8,10 +8,10 @@ permalink: /
 <div id="homeid" class="col-sm-7 col-xs-12">
 ### About me
 <p style="text-align:justify">
-I am a fourth year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
-My primary research is on the modeling of gas liquid interfaces under high amplitude accelerations, but I also make regular contributions to MFC, an exascale ready multiphase flow code that scales to 10's of thousands of GPUs.
-As a developer of MFC I played a key role in preparing our <a href="https://benwilfong.com/papers/wilfong-arxiv-25-2.pdf" target="_blank"> ACM Gordon Bell Prize finalist</a> paper.
-When I'm not busy with school or research I enjoy spending time outdoors camping, hiking, and climbing or indoors playing board games.
+I am a fifth-year Ph.D. student studying Computational Science and Engineering at Georgia Institute of Technology.
+My primary research is on the modeling of liquid-gas interfaces under high-amplitude accelerations, but I also make regular contributions to MFC, an exascale multiphase flow code that scales to tens of thousands of GPUs.
+As a developer of MFC, I played a key role in preparing our <a href="https://benwilfong.com/papers/wilfong-arxiv-25-2.pdf" target="_blank"> ACM Gordon Bell Prize finalist</a> paper.
+When I'm not busy with school or research, I enjoy spending time outdoors hiking, biking, and running, or playing boardgames with friends.
 </p>
 <div class="row">
 <div class="column50">
@@ -59,14 +59,14 @@ style="width:100%">
 </video>
 <p style="text-align:justify;">
 This visualization shows the development and interaction of seven high-speed jets of hot gas into ambient air at a Reynolds number of 250k.
-Each jet is resolved with 170 grid cells in its diameter, and the computational domain is comprised of twelve billion total cells.
+Each jet is resolved with 170 grid cells in its diameter, and the computational domain comprises twelve billion total cells.
 The visualization is colored by the volume fraction of the jet fluid, with darker colors indicating higher concentrations.
 The simulation was performed using the open-source multiphase compressible flow solver MFC, which uses high-order finite volume methods and OpenACC acceleration to perform exascale simulations on Frontier.
-This simulation was run on three thousand Frontier nodes in ~40 minutes, and visualized using 20 Andes nodes with Paraview in ~20 hours.
+This simulation was run on three thousand Frontier nodes in ~40 minutes, and visualized using 20 Andes nodes with ParaView in ~20 hours.
 High-fidelity simulations of multi-engine rockets like this one allow for observations of stream recirculation and base heating in multi-jet rocket configurations that are difficult to capture experimentally.
 MFC is capable of simulating multi-engine spacecraft with up to 100 trillion grid cells on Frontier by using novel numerical methods, mixed precision, and shared memory architectures.
 </p>
-<p>Software: <a href="https://mflowcode.github.io" target="_blank">Multiphase Flow Code</a>.</p>
+<p>Software: <a href="https://mflowcode.github.io" target="_blank">Multicomponent Flow Code</a>.</p>
 <p>OLCF Resources: Frontier (3k nodes, 40 minutes), Andes (20 nodes, 20 hours)</p>
 </div>
 </div>
